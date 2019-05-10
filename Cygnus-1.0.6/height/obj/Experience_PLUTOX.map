@@ -1,0 +1,1893 @@
+Archive member included to satisfy reference by file (symbol)
+
+./libs/libpluto_0.2.a(startup_stm32f30x_md_gcc.o)
+                              (Reset_Handler)
+./libs/libpluto_0.2.a(system_stm32f30x.o)
+                              ./libs/libpluto_0.2.a(startup_stm32f30x_md_gcc.o) (SystemInit)
+./libs/libpluto_0.2.a(main.o)
+                              ./libs/libpluto_0.2.a(startup_stm32f30x_md_gcc.o) (main)
+./libs/libpluto_0.2.a(mw.o)   main.o (symbol from plugin) (loop)
+./libs/libpluto_0.2.a(altitudehold.o)
+                              mw.o (symbol from plugin) (applyAltHold)
+./libs/libpluto_0.2.a(failsafe.o)
+                              main.o (symbol from plugin) (failsafeInit)
+./libs/libpluto_0.2.a(pid.o)  mw.o (symbol from plugin) (dynP8)
+./libs/libpluto_0.2.a(imu.o)  main.o (symbol from plugin) (imuInit)
+./libs/libpluto_0.2.a(mixer.o)
+                              main.o (symbol from plugin) (mixerInit)
+./libs/libpluto_0.2.a(filter.o)
+                              mw.o (symbol from plugin) (filterApplyPt1)
+./libs/libpluto_0.2.a(system.o)
+                              main.o (symbol from plugin) (micros)
+./libs/libpluto_0.2.a(beeper.o)
+                              mw.o (symbol from plugin) (beeperSilence)
+./libs/libpluto_0.2.a(rc_controls.o)
+                              mw.o (symbol from plugin) (isUsingSticksForArming)
+./libs/libpluto_0.2.a(rc_curves.o)
+                              rc_controls.o (symbol from plugin) (generatePitchRollCurve)
+./libs/libpluto_0.2.a(serial.o)
+                              mw.o (symbol from plugin) (findNextSharedSerialPort)
+./libs/libpluto_0.2.a(serial_cli.o)
+                              mw.o (symbol from plugin) (cliMode)
+./libs/libpluto_0.2.a(serial_msp.o)
+                              mw.o (symbol from plugin) (mspReleasePortIfAllocated)
+./libs/libpluto_0.2.a(statusindicator.o)
+                              beeper.o (symbol from plugin) (warningLedEnable)
+./libs/libpluto_0.2.a(rx.o)   serial_msp.o (symbol from plugin) (rxRuntimeConfig)
+./libs/libpluto_0.2.a(pwm.o)  rx.o (symbol from plugin) (rxPwmInit)
+./libs/libpluto_0.2.a(msp.o)  serial_msp.o (symbol from plugin) (rxMspFrameReceive)
+./libs/libpluto_0.2.a(sbus.o)
+                              rx.o (symbol from plugin) (sbusInit)
+./libs/libpluto_0.2.a(sumd.o)
+                              rx.o (symbol from plugin) (sumdInit)
+./libs/libpluto_0.2.a(sumh.o)
+                              rx.o (symbol from plugin) (sumhInit)
+./libs/libpluto_0.2.a(spektrum.o)
+                              rx.o (symbol from plugin) (spektrumInit)
+./libs/libpluto_0.2.a(xbus.o)
+                              rx.o (symbol from plugin) (xBusInit)
+./libs/libpluto_0.2.a(acceleration.o)
+                              main.o (symbol from plugin) (accSetCalibrationCycles)
+./libs/libpluto_0.2.a(battery.o)
+                              mw.o (symbol from plugin) (vbat)
+./libs/libpluto_0.2.a(boardalignment.o)
+                              main.o (symbol from plugin) (initBoardAlignment)
+./libs/libpluto_0.2.a(compass.o)
+                              imu.o (symbol from plugin) (magADC)
+./libs/libpluto_0.2.a(gyro.o)
+                              mw.o (symbol from plugin) (gyroADC)
+./libs/libpluto_0.2.a(initialisation.o)
+                              main.o (symbol from plugin) (sensorsAutodetectmpu)
+./libs/libpluto_0.2.a(stm32f30x_rcc.o)
+                              system.o (symbol from plugin) (RCC_GetClocksFreq)
+./libs/libpluto_0.2.a(stm32f30x_misc.o)
+                              system.o (symbol from plugin) (NVIC_PriorityGroupConfig)
+./libs/libpluto_0.2.a(acrobats.o)
+                              mw.o (symbol from plugin) (flipState)
+./libs/libpluto_0.2.a(ranging_vl53l0x.o)
+                              mw.o (symbol from plugin) (LaserSensor::startRanging())
+./libs/libpluto_0.2.a(posEstimate.o)
+                              main.o (symbol from plugin) (updatePosGains)
+./libs/libpluto_0.2.a(command.o)
+                              mw.o (symbol from plugin) (isLanding)
+./libs/libpluto_0.2.a(localisationCommand.o)
+                              mw.o (symbol from plugin) (command_verify())
+./libs/libpluto_0.2.a(Print.o)
+                              command.o (symbol from plugin) (Print_P::monitor(char const*))
+./libs/libpluto_0.2.a(Utils.o)
+                              mw.o (symbol from plugin) (Timer::Timer())
+./libs/libpluto_0.2.a(Control.o)
+                              obj/PLUTOX/src/main/PlutoPilot.o (symbol from plugin) (Control_P::isArmed())
+./libs/libpluto_0.2.a(Angle.o)
+                              acrobats.o (symbol from plugin) (Angle_P::get(inclinations))
+./libs/libpluto_0.2.a(Althold.o)
+                              obj/PLUTOX/src/main/PlutoPilot.o (symbol from plugin) (Althold_P::activateAlthold(bool))
+./libs/libpluto_0.2.a(API-Utils.o)
+                              main.o (symbol from plugin) (autoRcTimerLoop)
+./libs/libpluto_0.2.a(vl53l0x_api.o)
+                              ranging_vl53l0x.o (symbol from plugin) (VL53L0X_SetDeviceAddress)
+./libs/libpluto_0.2.a(vl53l0x_platform.o)
+                              vl53l0x_api.o (symbol from plugin) (VL53L0X_ReadMulti)
+./libs/libpluto_0.2.a(vl53l0x_i2c_platform.o)
+                              vl53l0x_platform.o (symbol from plugin) (VL53L0X_write_multi)
+./libs/libpluto_0.2.a(adc.o)  rx.o (symbol from plugin) (adcGetChannel)
+./libs/libpluto_0.2.a(adc_stm32f30x.o)
+                              main.o (symbol from plugin) (adcInit)
+./libs/libpluto_0.2.a(accgyro_mpu.o)
+                              initialisation.o (symbol from plugin) (detectMpu)
+./libs/libpluto_0.2.a(accgyro_mpu6500.o)
+                              initialisation.o (symbol from plugin) (mpu6500AccDetect)
+./libs/libpluto_0.2.a(bus_i2c_stm32f30x.o)
+                              main.o (symbol from plugin) (i2cInit)
+./libs/libpluto_0.2.a(compass_ak8963.o)
+                              initialisation.o (symbol from plugin) (ak8963Detect)
+./libs/libpluto_0.2.a(gpio_stm32f30x.o)
+                              API-Utils.o (symbol from plugin) (gpioInit)
+./libs/libpluto_0.2.a(light_led_stm32f30x.o)
+                              main.o (symbol from plugin) (ledInit)
+./libs/libpluto_0.2.a(pwm_mapping.o)
+                              main.o (symbol from plugin) (pwmInit)
+./libs/libpluto_0.2.a(pwm_output.o)
+                              mixer.o (symbol from plugin) (pwmWriteMotor)
+./libs/libpluto_0.2.a(pwm_rx.o)
+                              rx.o (symbol from plugin) (isPPMDataBeingReceived)
+./libs/libpluto_0.2.a(serial_uart.o)
+                              serial.o (symbol from plugin) (uartOpen)
+./libs/libpluto_0.2.a(serial_uart_stm32f30x.o)
+                              serial_uart.o (symbol from plugin) (serialUSART1)
+./libs/libpluto_0.2.a(system_stm32f30x.o)
+                              serial_msp.o (symbol from plugin) (systemReset)
+./libs/libpluto_0.2.a(timer.o)
+                              main.o (symbol from plugin) (timerDataConfiguration)
+./libs/libpluto_0.2.a(barometer_ms5611.o)
+                              initialisation.o (symbol from plugin) (ms5611Detect)
+./libs/libpluto_0.2.a(barometer.o)
+                              altitudehold.o (symbol from plugin) (isBaroCalibrationComplete)
+./libs/libpluto_0.2.a(debug.o)
+                              serial_msp.o (symbol from plugin) (debug)
+./libs/libpluto_0.2.a(version.o)
+                              serial_msp.o (symbol from plugin) (buildTime)
+./libs/libpluto_0.2.a(config.o)
+                              main.o (symbol from plugin) (masterConfig)
+./libs/libpluto_0.2.a(runtime_config.o)
+                              mw.o (symbol from plugin) (enableFlightMode)
+./libs/libpluto_0.2.a(maths.o)
+                              mw.o (symbol from plugin) (sin_approx)
+./libs/libpluto_0.2.a(printf.o)
+                              main.o (symbol from plugin) (printfSupportInit)
+./libs/libpluto_0.2.a(lowpass.o)
+                              battery.o (symbol from plugin) (lowpassFixed)
+./libs/libpluto_0.2.a(serial.o)
+                              serial_msp.o (symbol from plugin) (serialWrite)
+./libs/libpluto_0.2.a(stm32f30x_gpio.o)
+                              API-Utils.o (symbol from plugin) (GPIO_Init)
+./libs/libpluto_0.2.a(stm32f30x_dma.o)
+                              API-Utils.o (symbol from plugin) (DMA_DeInit)
+./libs/libpluto_0.2.a(stm32f30x_i2c.o)
+                              bus_i2c_stm32f30x.o (symbol from plugin) (I2C_Init)
+./libs/libpluto_0.2.a(stm32f30x_flash.o)
+                              config.o (symbol from plugin) (FLASH_Unlock)
+./libs/libpluto_0.2.a(stm32f30x_syscfg.o)
+                              gpio_stm32f30x.o (symbol from plugin) (SYSCFG_EXTILineConfig)
+./libs/libpluto_0.2.a(stm32f30x_exti.o)
+                              accgyro_mpu.o (symbol from plugin) (EXTI_GetITStatus)
+./libs/libpluto_0.2.a(stm32f30x_usart.o)
+                              serial_uart.o (symbol from plugin) (USART_Init)
+./libs/libpluto_0.2.a(stm32f30x_tim.o)
+                              timer.o (symbol from plugin) (TIM_TimeBaseInit)
+./libs/libpluto_0.2.a(stm32f30x_adc.o)
+                              API-Utils.o (symbol from plugin) (ADC_Init)
+./libs/libpluto_0.2.a(posControl.o)
+                              config.o (symbol from plugin) (configurePosHold)
+./libs/libpluto_0.2.a(Led.o)  Control.o (symbol from plugin) (ledOp)
+./libs/libpluto_0.2.a(vl53l0x_api_core.o)
+                              vl53l0x_api.o (symbol from plugin) (VL53L0X_measurement_poll_for_completion)
+./libs/libpluto_0.2.a(vl53l0x_api_calibration.o)
+                              vl53l0x_api.o (symbol from plugin) (VL53L0X_perform_xtalk_calibration)
+./libs/libpluto_0.2.a(vl53l0x_api_strings.o)
+                              vl53l0x_api.o (symbol from plugin) (VL53L0X_get_device_info)
+/home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-sf_lrint.o)
+                              /tmp/ccDZPdcM.ltrans0.ltrans.o (lrintf)
+/home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-wf_acos.o)
+                              /tmp/ccDZPdcM.ltrans0.ltrans.o (acosf)
+/home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-wf_atan2.o)
+                              /tmp/ccDZPdcM.ltrans6.ltrans.o (atan2f)
+/home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-wf_log.o)
+                              /tmp/ccDZPdcM.ltrans16.ltrans.o (logf)
+/home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-wf_sqrt.o)
+                              /tmp/ccDZPdcM.ltrans0.ltrans.o (sqrtf)
+/home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-ef_acos.o)
+                              /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-wf_acos.o) (__ieee754_acosf)
+/home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-ef_atan2.o)
+                              /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-wf_atan2.o) (__ieee754_atan2f)
+/home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-ef_log.o)
+                              /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-wf_log.o) (__ieee754_logf)
+/home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-ef_sqrt.o)
+                              /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-wf_sqrt.o) (__ieee754_sqrtf)
+/home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-s_lib_ver.o)
+                              /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-wf_acos.o) (__fdlib_version)
+/home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-s_matherr.o)
+                              /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-wf_acos.o) (matherr)
+/home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-s_nan.o)
+                              /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-wf_acos.o) (nan)
+/home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-sf_atan.o)
+                              /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-ef_atan2.o) (atanf)
+/home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-sf_fabs.o)
+                              /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-wf_acos.o) (fabsf)
+/home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-errno.o)
+                              /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-wf_acos.o) (__errno)
+/home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-impure.o)
+                              /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-errno.o) (_impure_ptr)
+/home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-memcpy.o)
+                              /tmp/ccDZPdcM.ltrans7.ltrans.o (memcpy)
+/home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-memset.o)
+                              /tmp/ccDZPdcM.ltrans1.ltrans.o (memset)
+/home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-strchr.o)
+                              /tmp/ccDZPdcM.ltrans7.ltrans.o (strchr)
+/home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-strlen.o)
+                              /tmp/ccDZPdcM.ltrans2.ltrans.o (strlen)
+/home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(_ashrdi3.o)
+                              /tmp/ccDZPdcM.ltrans4.ltrans.o (__aeabi_lasr)
+/home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(_arm_addsubdf3.o)
+                              /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-wf_acos.o) (__aeabi_f2d)
+/home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(_arm_muldivdf3.o)
+                              /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-wf_sqrt.o) (__aeabi_ddiv)
+/home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(_arm_truncdfsf2.o)
+                              /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-wf_acos.o) (__aeabi_d2f)
+/home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(_aeabi_ldivmod.o)
+                              /tmp/ccDZPdcM.ltrans0.ltrans.o (__aeabi_ldivmod)
+/home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(_fixsfdi.o)
+                              /tmp/ccDZPdcM.ltrans4.ltrans.o (__aeabi_f2lz)
+/home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(_fixunssfdi.o)
+                              /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(_fixsfdi.o) (__aeabi_f2ulz)
+/home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(_udivmoddi4.o)
+                              /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(_aeabi_ldivmod.o) (__udivmoddi4)
+/home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(unwind-arm.o)
+                              /tmp/ccDZPdcM.ltrans2.ltrans.o (__aeabi_unwind_cpp_pr0)
+/home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(libunwind.o)
+                              /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(unwind-arm.o) (restore_core_regs)
+/home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(pr-support.o)
+                              /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(unwind-arm.o) (__gnu_unwind_execute)
+/home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(_dvmd_tls.o)
+                              /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(_aeabi_ldivmod.o) (__aeabi_ldiv0)
+/home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(_arm_fixunsdfsi.o)
+                              /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(_fixunssfdi.o) (__aeabi_d2uiz)
+/home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-abort.o)
+                              /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(unwind-arm.o) (abort)
+/home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-signal.o)
+                              /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-abort.o) (raise)
+/home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-signalr.o)
+                              /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-signal.o) (_kill_r)
+/home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-mallocr.o)
+                              /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-signal.o) (_malloc_r)
+/home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-mlock.o)
+                              /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-mallocr.o) (__malloc_lock)
+/home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-reent.o)
+                              /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-signalr.o) (errno)
+/home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-sbrkr.o)
+                              /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-mallocr.o) (_sbrk_r)
+/home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-freer.o)
+                              /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-mallocr.o) (_free_r)
+/home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+                              /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-mlock.o) (__retarget_lock_acquire_recursive)
+/home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libnosys.a(getpid.o)
+                              /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-signalr.o) (_getpid)
+/home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libnosys.a(kill.o)
+                              /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-signalr.o) (_kill)
+/home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libnosys.a(sbrk.o)
+                              /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-sbrkr.o) (_sbrk)
+/home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libnosys.a(_exit.o)
+                              /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-abort.o) (_exit)
+
+Allocating common symbols
+Common symbol       size              file
+
+__lock___atexit_recursive_mutex
+                    0x1               /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+__lock___arc4random_mutex
+                    0x1               /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+errno               0x4               /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-reent.o)
+__lock___env_recursive_mutex
+                    0x1               /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+__lock___sinit_recursive_mutex
+                    0x1               /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+__lock___malloc_recursive_mutex
+                    0x1               /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+__lock___at_quick_exit_mutex
+                    0x1               /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+__lock___dd_hash_mutex
+                    0x1               /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+__lock___tz_mutex   0x1               /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+cachedRccCsrValue   0x4               system.o (symbol from plugin)
+__lock___sfp_recursive_mutex
+                    0x1               /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 obj/PLUTOX/src/main/PlutoPilot.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 /tmp/ccDZPdcM.ltrans0.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccDZPdcM.ltrans1.ltrans.o
+ .ARM.extab     0x0000000000000000        0x0 /tmp/ccDZPdcM.ltrans3.ltrans.o
+ .ARM.extab     0x0000000000000000        0x0 /tmp/ccDZPdcM.ltrans5.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccDZPdcM.ltrans7.ltrans.o
+ .ARM.extab     0x0000000000000000        0x0 /tmp/ccDZPdcM.ltrans7.ltrans.o
+ .ARM.extab.text.startup
+                0x0000000000000000        0x0 /tmp/ccDZPdcM.ltrans8.ltrans.o
+ .ARM.extab     0x0000000000000000        0x0 /tmp/ccDZPdcM.ltrans8.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccDZPdcM.ltrans9.ltrans.o
+ .ARM.extab     0x0000000000000000        0x0 /tmp/ccDZPdcM.ltrans9.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccDZPdcM.ltrans10.ltrans.o
+ .ARM.extab     0x0000000000000000        0x0 /tmp/ccDZPdcM.ltrans10.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccDZPdcM.ltrans11.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccDZPdcM.ltrans14.ltrans.o
+ .ARM.extab     0x0000000000000000        0x0 /tmp/ccDZPdcM.ltrans14.ltrans.o
+ .rodata        0x0000000000000000        0x2 /tmp/ccDZPdcM.ltrans14.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccDZPdcM.ltrans15.ltrans.o
+ .ARM.extab     0x0000000000000000        0x0 /tmp/ccDZPdcM.ltrans15.ltrans.o
+ .data          0x0000000000000000       0x10 /tmp/ccDZPdcM.ltrans17.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccDZPdcM.ltrans17.ltrans.o
+ .text          0x0000000000000000       0x14 ./libs/libpluto_0.2.a(startup_stm32f30x_md_gcc.o)
+ .data          0x0000000000000000        0x0 ./libs/libpluto_0.2.a(startup_stm32f30x_md_gcc.o)
+ .bss           0x0000000000000000        0x0 ./libs/libpluto_0.2.a(startup_stm32f30x_md_gcc.o)
+ .text          0x0000000000000000        0x0 system_stm32f30x.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 main.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 mw.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 altitudehold.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 failsafe.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 pid.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 imu.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 mixer.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 filter.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 system.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 beeper.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 rc_controls.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 rc_curves.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 serial.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 serial_cli.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 serial_msp.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 statusindicator.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 rx.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 pwm.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 msp.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 sbus.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 sumd.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 sumh.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 spektrum.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 xbus.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 acceleration.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 battery.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 boardalignment.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 compass.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 gyro.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 initialisation.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 stm32f30x_rcc.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 stm32f30x_misc.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 acrobats.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 ranging_vl53l0x.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 posEstimate.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 command.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 localisationCommand.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 Print.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 Utils.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 Control.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 Angle.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 Althold.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 API-Utils.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 vl53l0x_api.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 vl53l0x_platform.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 vl53l0x_i2c_platform.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 adc.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 adc_stm32f30x.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 accgyro_mpu.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 accgyro_mpu6500.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 bus_i2c_stm32f30x.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 compass_ak8963.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 gpio_stm32f30x.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 light_led_stm32f30x.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 pwm_mapping.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 pwm_output.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 pwm_rx.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 serial_uart.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 serial_uart_stm32f30x.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 system_stm32f30x.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 timer.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 barometer_ms5611.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 barometer.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 debug.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 version.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 config.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 runtime_config.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 maths.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 printf.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 lowpass.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 serial.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 stm32f30x_gpio.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 stm32f30x_dma.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 stm32f30x_i2c.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 stm32f30x_flash.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 stm32f30x_syscfg.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 stm32f30x_exti.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 stm32f30x_usart.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 stm32f30x_tim.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 stm32f30x_adc.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 posControl.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 Led.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 vl53l0x_api_core.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 vl53l0x_api_calibration.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 vl53l0x_api_strings.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-sf_lrint.o)
+ .data          0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-sf_lrint.o)
+ .bss           0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-sf_lrint.o)
+ .text          0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-wf_acos.o)
+ .data          0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-wf_acos.o)
+ .bss           0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-wf_acos.o)
+ .text          0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-wf_atan2.o)
+ .data          0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-wf_atan2.o)
+ .bss           0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-wf_atan2.o)
+ .text          0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-wf_log.o)
+ .data          0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-wf_log.o)
+ .bss           0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-wf_log.o)
+ .text          0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-wf_sqrt.o)
+ .data          0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-wf_sqrt.o)
+ .bss           0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-wf_sqrt.o)
+ .text          0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-ef_acos.o)
+ .data          0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-ef_acos.o)
+ .bss           0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-ef_acos.o)
+ .text          0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-ef_atan2.o)
+ .data          0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-ef_atan2.o)
+ .bss           0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-ef_atan2.o)
+ .text          0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-ef_log.o)
+ .data          0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-ef_log.o)
+ .bss           0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-ef_log.o)
+ .text          0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-ef_sqrt.o)
+ .data          0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-ef_sqrt.o)
+ .bss           0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-ef_sqrt.o)
+ .text          0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-s_lib_ver.o)
+ .data          0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-s_lib_ver.o)
+ .bss           0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-s_lib_ver.o)
+ .text          0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-s_matherr.o)
+ .data          0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-s_matherr.o)
+ .bss           0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-s_matherr.o)
+ .text          0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-s_nan.o)
+ .data          0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-s_nan.o)
+ .bss           0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-s_nan.o)
+ .text          0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-sf_atan.o)
+ .data          0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-sf_atan.o)
+ .bss           0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-sf_atan.o)
+ .text          0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-sf_fabs.o)
+ .data          0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-sf_fabs.o)
+ .bss           0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-sf_fabs.o)
+ .text          0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-errno.o)
+ .data          0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-errno.o)
+ .bss           0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-errno.o)
+ .text          0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-impure.o)
+ .data          0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-impure.o)
+ .bss           0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-impure.o)
+ .rodata._global_impure_ptr
+                0x0000000000000000        0x4 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-impure.o)
+ .data          0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-memcpy.o)
+ .bss           0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-memcpy.o)
+ .text          0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-memset.o)
+ .data          0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-memset.o)
+ .bss           0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-memset.o)
+ .text          0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-strchr.o)
+ .data          0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-strchr.o)
+ .bss           0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-strchr.o)
+ .data          0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-strlen.o)
+ .bss           0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-strlen.o)
+ .data          0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(_ashrdi3.o)
+ .bss           0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(_ashrdi3.o)
+ .data          0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(_arm_addsubdf3.o)
+ .bss           0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(_arm_addsubdf3.o)
+ .data          0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(_arm_muldivdf3.o)
+ .bss           0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(_arm_muldivdf3.o)
+ .data          0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(_arm_truncdfsf2.o)
+ .bss           0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(_arm_truncdfsf2.o)
+ .data          0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(_aeabi_ldivmod.o)
+ .bss           0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(_aeabi_ldivmod.o)
+ .data          0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(_fixsfdi.o)
+ .bss           0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(_fixsfdi.o)
+ .data          0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(_fixunssfdi.o)
+ .bss           0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(_fixunssfdi.o)
+ .data          0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(_udivmoddi4.o)
+ .bss           0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(_udivmoddi4.o)
+ .ARM.extab     0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(_udivmoddi4.o)
+ .data          0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(unwind-arm.o)
+ .bss           0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(unwind-arm.o)
+ .ARM.extab     0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(unwind-arm.o)
+ .debug_frame   0x0000000000000000      0x2f4 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(unwind-arm.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(unwind-arm.o)
+ .data          0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(libunwind.o)
+ .bss           0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(libunwind.o)
+ .ARM.attributes
+                0x0000000000000000       0x22 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(libunwind.o)
+ .data          0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(pr-support.o)
+ .bss           0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(pr-support.o)
+ .debug_frame   0x0000000000000000      0x104 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(pr-support.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(pr-support.o)
+ .data          0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(_dvmd_tls.o)
+ .bss           0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(_dvmd_tls.o)
+ .data          0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(_arm_fixunsdfsi.o)
+ .bss           0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(_arm_fixunsdfsi.o)
+ .text          0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-abort.o)
+ .data          0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-abort.o)
+ .bss           0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-abort.o)
+ .debug_frame   0x0000000000000000       0x28 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-abort.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-abort.o)
+ .text          0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-signal.o)
+ .data          0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-signal.o)
+ .bss           0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-signal.o)
+ .text._init_signal_r.part.0
+                0x0000000000000000       0x28 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-signal.o)
+ .text._init_signal_r
+                0x0000000000000000       0x10 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-signal.o)
+ .text._signal_r
+                0x0000000000000000       0x44 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-signal.o)
+ .text.__sigtramp_r
+                0x0000000000000000       0x5c /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-signal.o)
+ .text.signal   0x0000000000000000       0x10 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-signal.o)
+ .text._init_signal
+                0x0000000000000000       0x18 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-signal.o)
+ .text.__sigtramp
+                0x0000000000000000       0x10 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-signal.o)
+ .debug_frame   0x0000000000000000      0x108 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-signal.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-signal.o)
+ .text          0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-signalr.o)
+ .data          0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-signalr.o)
+ .bss           0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-signalr.o)
+ .debug_frame   0x0000000000000000       0x3c /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-signalr.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-signalr.o)
+ .text          0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-mallocr.o)
+ .data          0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-mallocr.o)
+ .bss           0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-mallocr.o)
+ .text._malloc_r
+                0x0000000000000000      0x560 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-mallocr.o)
+ .bss.__malloc_current_mallinfo
+                0x0000000000000000       0x28 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-mallocr.o)
+ .bss.__malloc_max_sbrked_mem
+                0x0000000000000000        0x4 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-mallocr.o)
+ .bss.__malloc_max_total_mem
+                0x0000000000000000        0x4 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-mallocr.o)
+ .bss.__malloc_top_pad
+                0x0000000000000000        0x4 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-mallocr.o)
+ .data.__malloc_av_
+                0x0000000000000000      0x408 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-mallocr.o)
+ .data.__malloc_sbrk_base
+                0x0000000000000000        0x4 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-mallocr.o)
+ .data.__malloc_trim_threshold
+                0x0000000000000000        0x4 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-mallocr.o)
+ .debug_frame   0x0000000000000000       0x58 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-mallocr.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-mallocr.o)
+ .text          0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-mlock.o)
+ .data          0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-mlock.o)
+ .bss           0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-mlock.o)
+ .text.__malloc_lock
+                0x0000000000000000        0xc /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-mlock.o)
+ .text.__malloc_unlock
+                0x0000000000000000        0xc /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-mlock.o)
+ .debug_frame   0x0000000000000000       0x30 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-mlock.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-mlock.o)
+ .text          0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-reent.o)
+ .data          0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-reent.o)
+ .bss           0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-reent.o)
+ .text.cleanup_glue
+                0x0000000000000000       0x1c /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-reent.o)
+ .text._reclaim_reent
+                0x0000000000000000       0x88 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-reent.o)
+ .debug_frame   0x0000000000000000       0x58 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-reent.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-reent.o)
+ .text          0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-sbrkr.o)
+ .data          0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-sbrkr.o)
+ .bss           0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-sbrkr.o)
+ .text._sbrk_r  0x0000000000000000       0x24 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-sbrkr.o)
+ .debug_frame   0x0000000000000000       0x2c /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-sbrkr.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-sbrkr.o)
+ .text          0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-freer.o)
+ .data          0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-freer.o)
+ .bss           0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-freer.o)
+ .text._malloc_trim_r
+                0x0000000000000000       0xa0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-freer.o)
+ .text._free_r  0x0000000000000000      0x1cc /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-freer.o)
+ .debug_frame   0x0000000000000000       0x74 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-freer.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-freer.o)
+ .text          0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+ .data          0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+ .bss           0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+ .text.__retarget_lock_init
+                0x0000000000000000        0x4 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+ .text.__retarget_lock_init_recursive
+                0x0000000000000000        0x4 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+ .text.__retarget_lock_close
+                0x0000000000000000        0x4 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+ .text.__retarget_lock_close_recursive
+                0x0000000000000000        0x4 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+ .text.__retarget_lock_acquire
+                0x0000000000000000        0x4 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+ .text.__retarget_lock_acquire_recursive
+                0x0000000000000000        0x4 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+ .text.__retarget_lock_try_acquire
+                0x0000000000000000        0x4 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+ .text.__retarget_lock_try_acquire_recursive
+                0x0000000000000000        0x4 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+ .text.__retarget_lock_release
+                0x0000000000000000        0x4 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+ .text.__retarget_lock_release_recursive
+                0x0000000000000000        0x4 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+ .debug_frame   0x0000000000000000       0xb0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+ COMMON         0x0000000000000000       0x21 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+ .text          0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libnosys.a(getpid.o)
+ .data          0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libnosys.a(getpid.o)
+ .bss           0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libnosys.a(getpid.o)
+ .stab          0x0000000000000000       0x24 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libnosys.a(getpid.o)
+ .debug_frame   0x0000000000000000       0x20 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libnosys.a(getpid.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libnosys.a(getpid.o)
+ .text          0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libnosys.a(kill.o)
+ .data          0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libnosys.a(kill.o)
+ .bss           0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libnosys.a(kill.o)
+ .stab          0x0000000000000000       0x18 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libnosys.a(kill.o)
+                                         0x24 (size before relaxing)
+ .debug_frame   0x0000000000000000       0x20 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libnosys.a(kill.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libnosys.a(kill.o)
+ .text          0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libnosys.a(sbrk.o)
+ .data          0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libnosys.a(sbrk.o)
+ .bss           0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libnosys.a(sbrk.o)
+ .text._sbrk    0x0000000000000000       0x1c /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libnosys.a(sbrk.o)
+ .bss.heap_end.5239
+                0x0000000000000000        0x4 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libnosys.a(sbrk.o)
+ .debug_frame   0x0000000000000000       0x20 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libnosys.a(sbrk.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libnosys.a(sbrk.o)
+ .text          0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libnosys.a(_exit.o)
+ .data          0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libnosys.a(_exit.o)
+ .bss           0x0000000000000000        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libnosys.a(_exit.o)
+ .debug_frame   0x0000000000000000       0x20 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libnosys.a(_exit.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libnosys.a(_exit.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x0000000008000000 0x000000000001f800 xr
+RAM              0x0000000020000000 0x000000000000a000 xrw
+MEMORY_B1        0x0000000060000000 0x0000000000000000 xr
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD obj/PLUTOX/src/main/PlutoPilot.o
+LOAD /tmp/ccDZPdcM.ltrans0.ltrans.o
+LOAD /tmp/ccDZPdcM.ltrans1.ltrans.o
+LOAD /tmp/ccDZPdcM.ltrans2.ltrans.o
+LOAD /tmp/ccDZPdcM.ltrans3.ltrans.o
+LOAD /tmp/ccDZPdcM.ltrans4.ltrans.o
+LOAD /tmp/ccDZPdcM.ltrans5.ltrans.o
+LOAD /tmp/ccDZPdcM.ltrans6.ltrans.o
+LOAD /tmp/ccDZPdcM.ltrans7.ltrans.o
+LOAD /tmp/ccDZPdcM.ltrans8.ltrans.o
+LOAD /tmp/ccDZPdcM.ltrans9.ltrans.o
+LOAD /tmp/ccDZPdcM.ltrans10.ltrans.o
+LOAD /tmp/ccDZPdcM.ltrans11.ltrans.o
+LOAD /tmp/ccDZPdcM.ltrans12.ltrans.o
+LOAD /tmp/ccDZPdcM.ltrans13.ltrans.o
+LOAD /tmp/ccDZPdcM.ltrans14.ltrans.o
+LOAD /tmp/ccDZPdcM.ltrans15.ltrans.o
+LOAD /tmp/ccDZPdcM.ltrans16.ltrans.o
+LOAD /tmp/ccDZPdcM.ltrans17.ltrans.o
+LOAD /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libnosys.a
+LOAD ./libs/libpluto_0.2.a
+LOAD /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libstdc++.a
+LOAD /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a
+LOAD /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a
+START GROUP
+LOAD /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a
+LOAD /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a
+LOAD /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a
+END GROUP
+START GROUP
+LOAD /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a
+LOAD /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a
+LOAD /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libnosys.a
+END GROUP
+                0x000000002000a000                _estack = (ORIGIN (RAM) + LENGTH (RAM))
+                0x0000000000000000                _Min_Heap_Size = 0x0
+                0x0000000000000400                _Min_Stack_Size = 0x400
+
+.isr_vector     0x0000000008000000      0x188
+                0x0000000008000000                . = ALIGN (0x4)
+                [!provide]                        PROVIDE (isr_vector_table_base, .)
+ *(.isr_vector)
+ .isr_vector    0x0000000008000000      0x188 ./libs/libpluto_0.2.a(startup_stm32f30x_md_gcc.o)
+                0x0000000008000000                g_pfnVectors
+                0x0000000008000188                . = ALIGN (0x4)
+
+.text           0x00000000080001c0     0xf05c
+                0x00000000080001c0                . = ALIGN (0x4)
+ *(.text)
+ .text          0x00000000080001c0     0x1620 /tmp/ccDZPdcM.ltrans1.ltrans.o
+                0x00000000080001c0                init()
+ .text          0x00000000080017e0      0xbd4 /tmp/ccDZPdcM.ltrans2.ltrans.o
+                0x00000000080017e0                headSerialResponse(unsigned char, unsigned char) [clone .lto_priv.132]
+                0x0000000008001820                headSerialReply(unsigned char) [clone .lto_priv.157]
+                0x0000000008001826                read32() [clone .lto_priv.160]
+                0x0000000008001838                processOutCommand(unsigned char) [clone .lto_priv.238]
+ .text          0x00000000080023b4      0x938 /tmp/ccDZPdcM.ltrans3.ltrans.o
+                0x00000000080023b4                pwmOverflowCallback(timerOvrHandlerRec_s*, unsigned short) [clone .lto_priv.279]
+                0x00000000080023dc                ppmEdgeCallback(timerCCHandlerRec_s*, unsigned short) [clone .lto_priv.280]
+                0x00000000080024b4                ppmOverflowCallback(timerOvrHandlerRec_s*, unsigned short) [clone .lto_priv.281]
+                0x00000000080024c4                pwmWriteStandard(unsigned char, unsigned short) [clone .lto_priv.276]
+                0x00000000080024d8                pwmWriteBrushed(unsigned char, unsigned short) [clone .lto_priv.277]
+                0x00000000080024fc                uartReconfigure.lto_priv.144
+                0x0000000008002620                pwmICConfig(TIM_TypeDef*, unsigned char, unsigned short)
+                0x0000000008002728                pwmEdgeCallback(timerCCHandlerRec_s*, unsigned short) [clone .lto_priv.278]
+                0x0000000008002780                pwmWriteMotor
+                0x0000000008002798                gpioInit
+                0x00000000080027ec                pwmOutConfig
+                0x0000000008002a18                i2cRead
+                0x0000000008002b28                i2cWrite
+                0x0000000008002b3c                ak8963Read
+                0x0000000008002c00                ak8963Init
+ .text          0x0000000008002cec      0xdd8 /tmp/ccDZPdcM.ltrans4.ltrans.o
+                0x0000000008002d1c                xBusReadRawRC(rxRuntimeConfig_s*, unsigned char) [clone .lto_priv.254]
+                0x0000000008002dcc                spektrumReadRawRC.lto_priv.129
+                0x0000000008002df8                sumhReadRawRC.lto_priv.247
+                0x0000000008002e10                sumdReadRawRC.lto_priv.245
+                0x0000000008002e24                sbusReadRawRC.lto_priv.243
+                0x0000000008002e58                rxMspReadRawRC.lto_priv.256
+                0x0000000008002e68                ppmReadRawRC.lto_priv.258
+                0x0000000008002e74                pwmReadRawRC.lto_priv.257
+                0x0000000008003084                xBusDataReceive(unsigned short) [clone .lto_priv.255]
+                0x000000000800314c                spektrumDataReceive.lto_priv.130
+                0x0000000008003194                sumhDataReceive.lto_priv.248
+                0x00000000080031dc                sumdDataReceive.lto_priv.246
+                0x0000000008003280                sbusDataReceive.lto_priv.244
+                0x00000000080032cc                RCC_GetClocksFreq
+                0x00000000080035b4                alignSensors
+                0x00000000080036ec                updateBattery
+                0x00000000080037e4                performInflightAccelerationCalibration(rollAndPitchTrims_t*)
+                0x00000000080038f8                detectAndApplySignalLossBehaviour.lto_priv.240
+ .text          0x0000000008003ac4      0x708 /tmp/ccDZPdcM.ltrans5.ltrans.o
+                0x0000000008003ac4                mpuGyroRead
+                0x0000000008003b08                mpuAccRead
+                0x0000000008003b4c                mpuWriteRegisterI2C(unsigned char, unsigned char) [clone .lto_priv.272]
+                0x0000000008003b56                mpuReadRegisterI2C(unsigned char, unsigned char, unsigned char*) [clone .lto_priv.271]
+                0x0000000008003ba4                mpu6500GyroInit
+                0x0000000008003c4c                mpu6500AccInit
+                0x0000000008003c60                i2cTimeoutUserCallback
+                0x0000000008003c88                i2cWriteBuffer
+                0x0000000008003d88                VL53L0X_RdWord
+                0x0000000008003db4                VL53L0X_WrByte
+                0x0000000008003dca                unibusAdc3init() [clone .part.0]
+                0x0000000008003f3c                reverseMotorGPIOInit
+                0x0000000008003fe8                unibusAdc4init()
+ .text          0x00000000080041cc     0x1050 /tmp/ccDZPdcM.ltrans6.ltrans.o
+                0x0000000008004dd0                imuCalculateEstimatedAttitude() [clone .lto_priv.239]
+                0x00000000080051d4                pidSetController
+ .text          0x000000000800521c      0xd44 /tmp/ccDZPdcM.ltrans7.ltrans.o
+                0x000000000800521c                ms5611_calculate(long*, long*, unsigned long, unsigned long) [clone .lto_priv.269]
+                0x00000000080053bc                ms5611_start_up() [clone .lto_priv.267]
+                0x00000000080053c6                ms5611_start_ut() [clone .lto_priv.265]
+                0x00000000080053f8                ms5611_get_up() [clone .lto_priv.268]
+                0x00000000080053fa                ms5611_get_ut() [clone .lto_priv.266]
+                0x00000000080053fc                activateControlRateConfig()
+                0x0000000008005444                isEEPROMContentValid() [clone .lto_priv.133]
+                0x0000000008005490                readEEPROM
+                0x0000000008005720                resetConf() [clone .lto_priv.161]
+                0x0000000008005bd0                apmBaroCalibrationRead()
+                0x0000000008005c28                apmBaroRead
+                0x0000000008005cac                apmBaroUpdate
+                0x0000000008005da4                configTimeBase
+                0x0000000008005e40                lookupTimerIndex(TIM_TypeDef const*) [clone .lto_priv.175]
+                0x0000000008005e98                timerChConfigCallbacks
+                0x0000000008005f48                USART2_IRQHandler
+                0x0000000008005f54                USART1_IRQHandler
+ .text          0x0000000008005f60      0x7c4 /tmp/ccDZPdcM.ltrans8.ltrans.o
+                0x0000000008005f60                NVIC_Init.part.0.constprop.116
+                0x0000000008005f9c                spektrumInit.constprop.106
+                0x000000000800601c                timerConfigure.constprop.66
+                0x0000000008006074                useRcControlsConfig.constprop.54
+                0x00000000080060b0                resetSerialConfig(serialConfig_s*) [clone .constprop.53]
+                0x0000000008006110                FLASH_WaitForLastOperation.constprop.48
+                0x0000000008006134                headSerialError(unsigned char) [clone .constprop.35]
+                0x000000000800613c                calculateThrottleStatus.constprop.31
+                0x0000000008006170                PositionController.constprop.26
+                0x00000000080061b4                VL53L0X_CheckAndLoadInterruptSettings.constprop.11
+                0x00000000080062c8                updateCompass.part.0.constprop.6
+                0x00000000080063ec                processRcStickPositions.constprop.3
+                0x0000000008006640                VL53L0X_isqrt
+                0x000000000800666a                ADC_RegularChannelConfig
+ .text          0x0000000008006724      0x724 /tmp/ccDZPdcM.ltrans9.ltrans.o
+                0x0000000008006724                LaserSensor::startRanging()
+                0x0000000008006e28                RCC_ADCCLKConfig
+ .text          0x0000000008006e48      0x970 /tmp/ccDZPdcM.ltrans10.ltrans.o
+                0x0000000008006e60                read8() [clone .lto_priv.158]
+                0x0000000008006e74                read16() [clone .lto_priv.159]
+                0x0000000008006e88                serialize8(unsigned char) [clone .lto_priv.167]
+                0x0000000008006eac                serialize16(unsigned short) [clone .lto_priv.168]
+                0x0000000008006ebe                serialize32(unsigned long) [clone .lto_priv.169]
+                0x0000000008006ed0                serialize8Debug
+                0x0000000008006ee0                openSerialPort
+                0x0000000008006f58                findNextSerialPortConfig
+                0x0000000008006f9c                findSerialPortConfig
+                0x0000000008006fa8                generateThrottleCurve
+                0x0000000008007028                generatePitchRollCurve
+                0x0000000008007060                isRangeActive.part.0
+                0x00000000080070a8                beeperSilence
+                0x00000000080070bc                beeper
+                0x0000000008007108                beeperConfirmationBeeps
+                0x0000000008007140                applyStepAdjustment
+                0x0000000008007570                micros
+                0x00000000080075a8                delay
+                0x00000000080075c6                failureMode
+                0x0000000008007684                SysTick_Handler
+                0x0000000008007694                EXTI3_IRQHandler
+                0x000000000800769a                EXTI15_10_IRQHandler
+                0x00000000080076a0                filterApplyPt1
+                0x00000000080076f8                writeMotors
+ .text          0x00000000080077b8      0x514 /tmp/ccDZPdcM.ltrans11.ltrans.o
+                0x00000000080078c2                usartIrqHandler
+                0x0000000008007930                DMA1_Channel4_IRQHandler
+                0x0000000008007968                uartOpen
+ .text          0x0000000008007ccc      0xab8 /tmp/ccDZPdcM.ltrans12.ltrans.o
+                0x0000000008007ccc                pidMultiWii23(pidProfile_s*, controlRateConfig_s*, unsigned short, rollAndPitchTrims_t*, rxConfig_s*) [clone .lto_priv.180]
+                0x0000000008007f90                pidMultiWii(pidProfile_s*, controlRateConfig_s*, unsigned short, rollAndPitchTrims_t*, rxConfig_s*) [clone .lto_priv.178]
+                0x000000000800821c                pidLuxFloat(pidProfile_s*, controlRateConfig_s*, unsigned short, rollAndPitchTrims_t*, rxConfig_s*) [clone .lto_priv.179]
+                0x000000000800856c                pidResetErrorGyro
+                0x000000000800858c                pidResetErrorAngle
+                0x00000000080085a8                failsafeUpdateState.part.0
+                0x0000000008008720                failsafeOnLowBattery
+                0x000000000800874c                AltRst
+ .text          0x0000000008008784      0x794 /tmp/ccDZPdcM.ltrans13.ltrans.o
+                0x0000000008008784                nullReadRawRC.lto_priv.131
+                0x0000000008008788                getRxfailValue.lto_priv.155
+                0x00000000080087d8                resumeRxSignal
+                0x0000000008008804                suspendRxSignal
+                0x0000000008008830                processInCommand() [clone .lto_priv.237]
+ .text          0x0000000008008f18      0x390 /tmp/ccDZPdcM.ltrans14.ltrans.o
+                0x0000000008008f18                unibusAdc2init()
+                0x00000000080090c4                unibusAdc1init()
+                0x0000000008009274                command_previous()
+                0x0000000008009288                command_next()
+ .text          0x00000000080092a8      0x5e8 /tmp/ccDZPdcM.ltrans15.ltrans.o
+                0x00000000080092a8                FLASH_GetStatus
+                0x00000000080092d0                DMA_StructInit
+                0x00000000080092ea                DMA_Init
+                0x0000000008009326                DMA_DeInit
+                0x0000000008009418                GPIO_Init
+                0x00000000080094a6                serialWrite
+                0x00000000080094ac                _putc(void*, char) [clone .lto_priv.288]
+                0x00000000080094b0                applyDeadband
+                0x00000000080094ce                sin_approx
+                0x0000000008009594                buildRotationMatrix
+                0x0000000008009650                rotateV
+                0x00000000080096c4                reset_FSI
+                0x00000000080096dc                set_FSI
+                0x00000000080096f0                disableFlightMode
+                0x0000000008009710                enableFlightMode
+                0x000000000800972c                featureClear
+                0x000000000800973c                featureSet
+                0x000000000800974c                writeEEPROM
+                0x000000000800987c                saveConfigAndNotify
+ .text          0x0000000008009890      0x574 /tmp/ccDZPdcM.ltrans16.ltrans.o
+                0x0000000008009890                apmCalculateEstimatedAltitude
+                0x0000000008009cd0                mwArm
+                0x0000000008009d60                mwDisarm
+                0x0000000008009dc0                isCalibrating()
+ .text          0x0000000008009e04       0x68 /tmp/ccDZPdcM.ltrans17.ltrans.o
+                0x0000000008009e04                SystemInit
+ .text          0x0000000008009e6c      0x134 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-memcpy.o)
+                0x0000000008009e6c                memcpy
+ *fill*         0x0000000008009fa0       0x20 
+ .text          0x0000000008009fc0       0xdc /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-strlen.o)
+                0x0000000008009fc0                strlen
+ .text          0x000000000800a09c       0x1c /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(_ashrdi3.o)
+                0x000000000800a09c                __ashrdi3
+                0x000000000800a09c                __aeabi_lasr
+ .text          0x000000000800a0b8      0x370 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(_arm_addsubdf3.o)
+                0x000000000800a0b8                __aeabi_drsub
+                0x000000000800a0c0                __aeabi_dsub
+                0x000000000800a0c0                __subdf3
+                0x000000000800a0c4                __adddf3
+                0x000000000800a0c4                __aeabi_dadd
+                0x000000000800a33c                __aeabi_ui2d
+                0x000000000800a33c                __floatunsidf
+                0x000000000800a35c                __floatsidf
+                0x000000000800a35c                __aeabi_i2d
+                0x000000000800a380                __extendsfdf2
+                0x000000000800a380                __aeabi_f2d
+                0x000000000800a3bc                __aeabi_ul2d
+                0x000000000800a3bc                __floatundidf
+                0x000000000800a3cc                __floatdidf
+                0x000000000800a3cc                __aeabi_l2d
+ .text          0x000000000800a428      0x424 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(_arm_muldivdf3.o)
+                0x000000000800a428                __aeabi_dmul
+                0x000000000800a428                __muldf3
+                0x000000000800a67c                __aeabi_ddiv
+                0x000000000800a67c                __divdf3
+ .text          0x000000000800a84c       0xa0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(_arm_truncdfsf2.o)
+                0x000000000800a84c                __aeabi_d2f
+                0x000000000800a84c                __truncdfsf2
+ .text          0x000000000800a8ec       0xa0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(_aeabi_ldivmod.o)
+                0x000000000800a8ec                __aeabi_ldivmod
+ .text          0x000000000800a98c       0x24 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(_fixsfdi.o)
+                0x000000000800a98c                __aeabi_f2lz
+                0x000000000800a98c                __fixsfdi
+ .text          0x000000000800a9b0       0x4c /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(_fixunssfdi.o)
+                0x000000000800a9b0                __aeabi_f2ulz
+                0x000000000800a9b0                __fixunssfdi
+ .text          0x000000000800a9fc      0x2dc /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(_udivmoddi4.o)
+                0x000000000800a9fc                __udivmoddi4
+ .text          0x000000000800acd8      0x9cc /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(unwind-arm.o)
+                0x000000000800af98                _Unwind_GetCFA
+                0x000000000800af9c                __gnu_Unwind_RaiseException
+                0x000000000800affc                __gnu_Unwind_ForcedUnwind
+                0x000000000800b010                __gnu_Unwind_Resume
+                0x000000000800b054                __gnu_Unwind_Resume_or_Rethrow
+                0x000000000800b064                _Unwind_Complete
+                0x000000000800b068                _Unwind_DeleteException
+                0x000000000800b074                _Unwind_VRS_Get
+                0x000000000800b0c0                _Unwind_VRS_Set
+                0x000000000800b110                __gnu_Unwind_Backtrace
+                0x000000000800b450                __aeabi_unwind_cpp_pr0
+                0x000000000800b454                __aeabi_unwind_cpp_pr1
+                0x000000000800b458                __aeabi_unwind_cpp_pr2
+                0x000000000800b45c                _Unwind_VRS_Pop
+ .text          0x000000000800b6a4      0x1ac /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(libunwind.o)
+                0x000000000800b6a4                __restore_core_regs
+                0x000000000800b6a4                restore_core_regs
+                0x000000000800b6bc                __gnu_Unwind_Restore_VFP
+                0x000000000800b6c4                __gnu_Unwind_Save_VFP
+                0x000000000800b6cc                __gnu_Unwind_Restore_VFP_D
+                0x000000000800b6d4                __gnu_Unwind_Save_VFP_D
+                0x000000000800b6dc                __gnu_Unwind_Restore_VFP_D_16_to_31
+                0x000000000800b6e4                __gnu_Unwind_Save_VFP_D_16_to_31
+                0x000000000800b6ec                __gnu_Unwind_Restore_WMMXD
+                0x000000000800b730                __gnu_Unwind_Save_WMMXD
+                0x000000000800b774                __gnu_Unwind_Restore_WMMXC
+                0x000000000800b788                __gnu_Unwind_Save_WMMXC
+                0x000000000800b79c                ___Unwind_RaiseException
+                0x000000000800b79c                _Unwind_RaiseException
+                0x000000000800b7c0                ___Unwind_Resume
+                0x000000000800b7c0                _Unwind_Resume
+                0x000000000800b7e4                _Unwind_Resume_or_Rethrow
+                0x000000000800b7e4                ___Unwind_Resume_or_Rethrow
+                0x000000000800b808                ___Unwind_ForcedUnwind
+                0x000000000800b808                _Unwind_ForcedUnwind
+                0x000000000800b82c                _Unwind_Backtrace
+                0x000000000800b82c                ___Unwind_Backtrace
+ .text          0x000000000800b850      0x380 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(pr-support.o)
+                0x000000000800b8a8                __gnu_unwind_execute
+                0x000000000800bb78                __gnu_unwind_frame
+                0x000000000800bba0                _Unwind_GetRegionStart
+                0x000000000800bbac                _Unwind_GetLanguageSpecificData
+                0x000000000800bbc0                _Unwind_GetTextRelBase
+                0x000000000800bbc8                _Unwind_GetDataRelBase
+ .text          0x000000000800bbd0        0x4 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(_dvmd_tls.o)
+                0x000000000800bbd0                __aeabi_ldiv0
+                0x000000000800bbd0                __aeabi_idiv0
+ .text          0x000000000800bbd4       0x40 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(_arm_fixunsdfsi.o)
+                0x000000000800bbd4                __fixunsdfsi
+                0x000000000800bbd4                __aeabi_d2uiz
+ *(.text*)
+ .text.startup  0x000000000800bc14     0x21e8 /tmp/ccDZPdcM.ltrans0.ltrans.o
+                0x000000000800bc14                main
+ .text.startup  0x000000000800ddfc       0x14 /tmp/ccDZPdcM.ltrans8.ltrans.o
+ .text.Reset_Handler
+                0x000000000800de10       0x68 ./libs/libpluto_0.2.a(startup_stm32f30x_md_gcc.o)
+                0x000000000800de10                Reset_Handler
+ .text.Default_Handler
+                0x000000000800de78        0x2 ./libs/libpluto_0.2.a(startup_stm32f30x_md_gcc.o)
+                0x000000000800de78                RTC_Alarm_IRQHandler
+                0x000000000800de78                TIM8_TRG_COM_IRQHandler
+                0x000000000800de78                TIM8_CC_IRQHandler
+                0x000000000800de78                DebugMon_Handler
+                0x000000000800de78                TIM1_CC_IRQHandler
+                0x000000000800de78                HardFault_Handler
+                0x000000000800de78                USB_HP_IRQHandler
+                0x000000000800de78                PVD_IRQHandler
+                0x000000000800de78                PendSV_Handler
+                0x000000000800de78                NMI_Handler
+                0x000000000800de78                EXTI0_IRQHandler
+                0x000000000800de78                I2C2_EV_IRQHandler
+                0x000000000800de78                FPU_IRQHandler
+                0x000000000800de78                EXTI2_TS_IRQHandler
+                0x000000000800de78                TIM1_UP_TIM16_IRQHandler
+                0x000000000800de78                UsageFault_Handler
+                0x000000000800de78                ADC1_2_IRQHandler
+                0x000000000800de78                SPI1_IRQHandler
+                0x000000000800de78                TIM6_DAC_IRQHandler
+                0x000000000800de78                TIM8_UP_IRQHandler
+                0x000000000800de78                DMA2_Channel2_IRQHandler
+                0x000000000800de78                USART3_IRQHandler
+                0x000000000800de78                DMA1_Channel7_IRQHandler
+                0x000000000800de78                CAN1_RX1_IRQHandler
+                0x000000000800de78                UART5_IRQHandler
+                0x000000000800de78                ADC3_IRQHandler
+                0x000000000800de78                TIM4_IRQHandler
+                0x000000000800de78                DMA2_Channel1_IRQHandler
+                0x000000000800de78                I2C1_EV_IRQHandler
+                0x000000000800de78                DMA1_Channel6_IRQHandler
+                0x000000000800de78                UART4_IRQHandler
+                0x000000000800de78                DMA2_Channel4_IRQHandler
+                0x000000000800de78                TIM3_IRQHandler
+                0x000000000800de78                RCC_IRQHandler
+                0x000000000800de78                DMA1_Channel1_IRQHandler
+                0x000000000800de78                Default_Handler
+                0x000000000800de78                USBWakeUp_RMP_IRQHandler
+                0x000000000800de78                TIM7_IRQHandler
+                0x000000000800de78                EXTI9_5_IRQHandler
+                0x000000000800de78                TAMPER_STAMP_IRQHandler
+                0x000000000800de78                RTC_WKUP_IRQHandler
+                0x000000000800de78                SPI2_IRQHandler
+                0x000000000800de78                MemManage_Handler
+                0x000000000800de78                SVC_Handler
+                0x000000000800de78                DMA2_Channel5_IRQHandler
+                0x000000000800de78                DMA1_Channel5_IRQHandler
+                0x000000000800de78                USB_LP_IRQHandler
+                0x000000000800de78                EXTI4_IRQHandler
+                0x000000000800de78                USB_LP_CAN1_RX0_IRQHandler
+                0x000000000800de78                TIM1_TRG_COM_TIM17_IRQHandler
+                0x000000000800de78                USB_HP_CAN1_TX_IRQHandler
+                0x000000000800de78                DMA1_Channel3_IRQHandler
+                0x000000000800de78                ADC4_IRQHandler
+                0x000000000800de78                WWDG_IRQHandler
+                0x000000000800de78                TIM2_IRQHandler
+                0x000000000800de78                COMP7_IRQHandler
+                0x000000000800de78                COMP1_2_3_IRQHandler
+                0x000000000800de78                EXTI1_IRQHandler
+                0x000000000800de78                COMP4_5_6_IRQHandler
+                0x000000000800de78                I2C2_ER_IRQHandler
+                0x000000000800de78                DMA1_Channel2_IRQHandler
+                0x000000000800de78                TIM8_BRK_IRQHandler
+                0x000000000800de78                CAN1_SCE_IRQHandler
+                0x000000000800de78                FLASH_IRQHandler
+                0x000000000800de78                BusFault_Handler
+                0x000000000800de78                SPI3_IRQHandler
+                0x000000000800de78                I2C1_ER_IRQHandler
+                0x000000000800de78                USBWakeUp_IRQHandler
+                0x000000000800de78                DMA2_Channel3_IRQHandler
+                0x000000000800de78                TIM1_BRK_TIM15_IRQHandler
+ *fill*         0x000000000800de7a        0x2 
+ .text.lrintf   0x000000000800de7c       0x98 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-sf_lrint.o)
+                0x000000000800de7c                lrintf
+ .text.acosf    0x000000000800df14       0xb8 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-wf_acos.o)
+                0x000000000800df14                acosf
+ .text.atan2f   0x000000000800dfcc        0x4 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-wf_atan2.o)
+                0x000000000800dfcc                atan2f
+ .text.logf     0x000000000800dfd0       0xf8 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-wf_log.o)
+                0x000000000800dfd0                logf
+ .text.sqrtf    0x000000000800e0c8       0xac /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-wf_sqrt.o)
+                0x000000000800e0c8                sqrtf
+ .text.__ieee754_acosf
+                0x000000000800e174      0x244 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-ef_acos.o)
+                0x000000000800e174                __ieee754_acosf
+ .text.__ieee754_atan2f
+                0x000000000800e3b8      0x180 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-ef_atan2.o)
+                0x000000000800e3b8                __ieee754_atan2f
+ .text.__ieee754_logf
+                0x000000000800e538      0x218 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-ef_log.o)
+                0x000000000800e538                __ieee754_logf
+ .text.__ieee754_sqrtf
+                0x000000000800e750        0x8 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-ef_sqrt.o)
+                0x000000000800e750                __ieee754_sqrtf
+ .text.matherr  0x000000000800e758        0x4 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-s_matherr.o)
+                0x000000000800e758                matherr
+ *fill*         0x000000000800e75c        0x4 
+ .text.nan      0x000000000800e760       0x10 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-s_nan.o)
+                0x000000000800e760                nan
+ .text.atanf    0x000000000800e770      0x1b0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-sf_atan.o)
+                0x000000000800e770                atanf
+ .text.fabsf    0x000000000800e920       0x10 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-sf_fabs.o)
+                0x000000000800e920                fabsf
+ .text.__errno  0x000000000800e930        0xc /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-errno.o)
+                0x000000000800e930                __errno
+ .text.memset   0x000000000800e93c       0x9c /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-memset.o)
+                0x000000000800e93c                memset
+ .text.strchr   0x000000000800e9d8       0xe8 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-strchr.o)
+                0x000000000800e9d8                strchr
+ .text.abort    0x000000000800eac0       0x10 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-abort.o)
+                0x000000000800eac0                abort
+ .text._raise_r
+                0x000000000800ead0       0x60 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-signal.o)
+                0x000000000800ead0                _raise_r
+ .text.raise    0x000000000800eb30       0x10 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-signal.o)
+                0x000000000800eb30                raise
+ .text._kill_r  0x000000000800eb40       0x28 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-signalr.o)
+                0x000000000800eb40                _kill_r
+ .text._getpid_r
+                0x000000000800eb68        0x4 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-signalr.o)
+                0x000000000800eb68                _getpid_r
+ .text._getpid  0x000000000800eb6c       0x10 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libnosys.a(getpid.o)
+                0x000000000800eb6c                _getpid
+ .text._kill    0x000000000800eb7c       0x10 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libnosys.a(kill.o)
+                0x000000000800eb7c                _kill
+ .text._exit    0x000000000800eb8c        0x4 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libnosys.a(_exit.o)
+                0x000000000800eb8c                _exit
+ *(.rodata)
+ .rodata        0x000000000800eb90       0x3c /tmp/ccDZPdcM.ltrans0.ltrans.o
+ .rodata        0x000000000800ebcc      0x17c /tmp/ccDZPdcM.ltrans1.ltrans.o
+ .rodata        0x000000000800ed48       0x30 /tmp/ccDZPdcM.ltrans2.ltrans.o
+ .rodata        0x000000000800ed78       0x1c /tmp/ccDZPdcM.ltrans7.ltrans.o
+                0x000000000800ed90                SystemCoreClock
+ .rodata        0x000000000800ed94        0x5 /tmp/ccDZPdcM.ltrans8.ltrans.o
+                0x000000000800ed94                serialPortIdentifiers
+                0x000000000800ed98                isLocalisationOn
+                0x000000000800ed98                reverseMode
+                0x000000000800ed98                reverseReferenceFrame
+                0x000000000800ed98                startShieldRanging
+ *fill*         0x000000000800ed99        0x3 
+ .rodata        0x000000000800ed9c      0x11b /tmp/ccDZPdcM.ltrans10.ltrans.o
+ *fill*         0x000000000800eeb7        0x1 
+ .rodata        0x000000000800eeb8       0x1c /tmp/ccDZPdcM.ltrans11.ltrans.o
+ .rodata        0x000000000800eed4      0x150 /tmp/ccDZPdcM.ltrans13.ltrans.o
+                0x000000000800eed4                _ZL5boxes.lto_priv.162
+ *(.rodata*)
+ .rodata.str1.1
+                0x000000000800f024        0x7 /tmp/ccDZPdcM.ltrans0.ltrans.o
+ .rodata.str1.1
+                0x000000000800f02b       0x23 /tmp/ccDZPdcM.ltrans2.ltrans.o
+ .rodata.str1.1
+                0x000000000800f04e        0x9 /tmp/ccDZPdcM.ltrans7.ltrans.o
+ .rodata.str1.1
+                0x000000000800f057       0xa1 /tmp/ccDZPdcM.ltrans10.ltrans.o
+                                         0xa8 (size before relaxing)
+ .rodata.str1.1
+                0x000000000800f0f8       0xe2 /tmp/ccDZPdcM.ltrans13.ltrans.o
+ *fill*         0x000000000800f1da        0x2 
+ .rodata.TWO23  0x000000000800f1dc        0x8 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-sf_lrint.o)
+ .rodata.acosf.str1.4
+                0x000000000800f1e4        0x6 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-wf_acos.o)
+                                          0x9 (size before relaxing)
+ *fill*         0x000000000800f1ea        0x2 
+ .rodata.logf.str1.4
+                0x000000000800f1ec        0x5 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-wf_log.o)
+                                          0x9 (size before relaxing)
+ *fill*         0x000000000800f1f1        0x3 
+ .rodata.sqrtf.str1.4
+                0x000000000800f1f4        0x8 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-wf_sqrt.o)
+                                          0x6 (size before relaxing)
+ .rodata.atanhi
+                0x000000000800f1fc       0x10 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-sf_atan.o)
+ .rodata.atanlo
+                0x000000000800f20c       0x10 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-sf_atan.o)
+ *(.glue_7)
+ .glue_7        0x000000000800f21c        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x000000000800f21c        0x0 linker stubs
+ *(.eh_frame)
+ *(.init)
+ *(.fini)
+                0x000000000800f21c                . = ALIGN (0x4)
+                0x000000000800f21c                _etext = .
+
+.vfp11_veneer   0x000000000800f21c        0x0
+ .vfp11_veneer  0x000000000800f21c        0x0 linker stubs
+
+.v4_bx          0x000000000800f21c        0x0
+ .v4_bx         0x000000000800f21c        0x0 linker stubs
+
+.iplt           0x000000000800f21c        0x0
+ .iplt          0x000000000800f21c        0x0 ./libs/libpluto_0.2.a(startup_stm32f30x_md_gcc.o)
+
+.ARM.extab      0x000000000800f21c       0x90
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+ .ARM.extab.text.startup
+                0x000000000800f21c        0xc /tmp/ccDZPdcM.ltrans0.ltrans.o
+ .ARM.extab     0x000000000800f228        0xc /tmp/ccDZPdcM.ltrans1.ltrans.o
+ .ARM.extab     0x000000000800f234        0xc /tmp/ccDZPdcM.ltrans2.ltrans.o
+ .ARM.extab     0x000000000800f240        0xc /tmp/ccDZPdcM.ltrans4.ltrans.o
+ .ARM.extab     0x000000000800f24c       0x24 /tmp/ccDZPdcM.ltrans6.ltrans.o
+ .ARM.extab     0x000000000800f270        0xc /tmp/ccDZPdcM.ltrans12.ltrans.o
+ .ARM.extab     0x000000000800f27c        0xc /tmp/ccDZPdcM.ltrans13.ltrans.o
+ .ARM.extab     0x000000000800f288        0xc /tmp/ccDZPdcM.ltrans16.ltrans.o
+ .ARM.extab     0x000000000800f294       0x18 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(pr-support.o)
+
+.ARM            0x000000000800f2ac      0x1b0
+                0x000000000800f2ac                __exidx_start = .
+ *(.ARM.exidx*)
+ .ARM.exidx.text.startup
+                0x000000000800f44c        0x8 /tmp/ccDZPdcM.ltrans0.ltrans.o
+ .ARM.exidx     0x000000000800f2ac        0x8 /tmp/ccDZPdcM.ltrans1.ltrans.o
+ .ARM.exidx     0x000000000800f2b4       0x18 /tmp/ccDZPdcM.ltrans2.ltrans.o
+                                         0x20 (size before relaxing)
+ .ARM.exidx     0x000000000800f2cc        0x8 /tmp/ccDZPdcM.ltrans3.ltrans.o
+                                         0x58 (size before relaxing)
+ .ARM.exidx     0x000000000800f2d4       0x10 /tmp/ccDZPdcM.ltrans4.ltrans.o
+                                         0x40 (size before relaxing)
+ .ARM.exidx     0x000000000800f2e4       0x28 /tmp/ccDZPdcM.ltrans5.ltrans.o
+                                         0x50 (size before relaxing)
+ .ARM.exidx     0x000000000800f30c       0x28 /tmp/ccDZPdcM.ltrans6.ltrans.o
+                                         0x30 (size before relaxing)
+ .ARM.exidx     0x000000000800f334       0x18 /tmp/ccDZPdcM.ltrans7.ltrans.o
+                                         0x80 (size before relaxing)
+ .ARM.exidx.text.startup
+                0x000000000800f454        0x8 /tmp/ccDZPdcM.ltrans8.ltrans.o
+ .ARM.exidx     0x000000000800f34c        0x0 /tmp/ccDZPdcM.ltrans8.ltrans.o
+                                         0x28 (size before relaxing)
+ .ARM.exidx     0x000000000800f34c        0x0 /tmp/ccDZPdcM.ltrans9.ltrans.o
+                                          0x8 (size before relaxing)
+ .ARM.exidx     0x000000000800f34c       0x20 /tmp/ccDZPdcM.ltrans10.ltrans.o
+                                         0x80 (size before relaxing)
+ .ARM.exidx     0x000000000800f36c       0x10 /tmp/ccDZPdcM.ltrans12.ltrans.o
+                                         0x40 (size before relaxing)
+ .ARM.exidx     0x000000000800f37c        0x8 /tmp/ccDZPdcM.ltrans13.ltrans.o
+ .ARM.exidx     0x000000000800f384        0x8 /tmp/ccDZPdcM.ltrans14.ltrans.o
+                                         0x20 (size before relaxing)
+ .ARM.exidx     0x000000000800f38c        0x0 /tmp/ccDZPdcM.ltrans15.ltrans.o
+                                         0x70 (size before relaxing)
+ .ARM.exidx     0x000000000800f38c       0x10 /tmp/ccDZPdcM.ltrans16.ltrans.o
+                                         0x20 (size before relaxing)
+ .ARM.exidx     0x000000000800f39c        0x0 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(_udivmoddi4.o)
+                                          0x8 (size before relaxing)
+ .ARM.exidx     0x000000000800f39c       0x78 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(unwind-arm.o)
+                                         0xd8 (size before relaxing)
+ .ARM.exidx     0x000000000800f414       0x38 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(pr-support.o)
+                                         0x48 (size before relaxing)
+                0x000000000800f45c                __exidx_end = .
+
+.rel.dyn        0x000000000800f45c        0x0
+ .rel.iplt      0x000000000800f45c        0x0 ./libs/libpluto_0.2.a(startup_stm32f30x_md_gcc.o)
+
+.preinit_array  0x000000000800f45c        0x0
+                [!provide]                        PROVIDE (__preinit_array_start, .)
+ *(.preinit_array*)
+                [!provide]                        PROVIDE (__preinit_array_end, .)
+
+.init_array     0x000000000800f45c        0x4
+                [!provide]                        PROVIDE (__init_array_start, .)
+ *(SORT(.init_array.*))
+ *(.init_array*)
+ .init_array    0x000000000800f45c        0x4 /tmp/ccDZPdcM.ltrans8.ltrans.o
+                [!provide]                        PROVIDE (__init_array_end, .)
+
+.fini_array     0x000000000800f460        0x0
+                [!provide]                        PROVIDE (__fini_array_start, .)
+ *(.fini_array*)
+ *(SORT(.fini_array.*))
+                [!provide]                        PROVIDE (__fini_array_end, .)
+                0x000000000800f460                _sidata = .
+
+.data           0x0000000020000000      0x658 load address 0x000000000800f460
+                0x0000000020000000                . = ALIGN (0x4)
+                0x0000000020000000                _sdata = .
+ *(.data)
+ .data          0x0000000020000000        0xb /tmp/ccDZPdcM.ltrans0.ltrans.o
+ .data          0x000000002000000b        0x1 /tmp/ccDZPdcM.ltrans2.ltrans.o
+                0x000000002000000b                command_status
+ .data          0x000000002000000c        0xc /tmp/ccDZPdcM.ltrans3.ltrans.o
+ .data          0x0000000020000018       0x33 /tmp/ccDZPdcM.ltrans4.ltrans.o
+                0x0000000020000048                _ZL22standardBoardAlignment.lto_priv.273
+                0x0000000020000049                rxIsInFailsafeMode.lto_priv.214
+                0x000000002000004a                rxIsInFailsafeModeNotDataDriven.lto_priv.216
+ *fill*         0x000000002000004b        0x1 
+ .data          0x000000002000004c        0x2 /tmp/ccDZPdcM.ltrans5.ltrans.o
+                0x000000002000004c                acc_1G
+ *fill*         0x000000002000004e        0x2 
+ .data          0x0000000020000050       0x14 /tmp/ccDZPdcM.ltrans6.ltrans.o
+                0x000000002000005c                headFreeModeHold
+                0x0000000020000060                pid_controller
+ .data          0x0000000020000064      0x1bb /tmp/ccDZPdcM.ltrans8.ltrans.o
+                0x0000000020000064                rcReadRawFunc.lto_priv.213
+                0x0000000020000068                isUsingSticksToArm.lto_priv.188
+ .data          0x000000002000021f        0x1 /tmp/ccDZPdcM.ltrans12.ltrans.o
+                0x000000002000021f                fsInFlightLowBattery
+ .data          0x0000000020000220        0x2 /tmp/ccDZPdcM.ltrans13.ltrans.o
+                0x0000000020000220                max_altitude
+ .data          0x0000000020000222        0x6 /tmp/ccDZPdcM.ltrans16.ltrans.o
+                0x0000000020000224                velocityControl
+                0x0000000020000225                setLandTimer
+                0x0000000020000226                fsCrash
+                0x0000000020000227                fsLowBattery
+ *(.data*)
+ .data.__fdlib_version
+                0x0000000020000228        0x1 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-s_lib_ver.o)
+                0x0000000020000228                __fdlib_version
+ *fill*         0x0000000020000229        0x3 
+ .data._impure_ptr
+                0x000000002000022c        0x4 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-impure.o)
+                0x000000002000022c                _impure_ptr
+ .data.impure_data
+                0x0000000020000230      0x428 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-impure.o)
+                0x0000000020000658                . = ALIGN (0x4)
+                0x0000000020000658                _edata = .
+
+.igot.plt       0x0000000020000658        0x0 load address 0x000000000800fab8
+ .igot.plt      0x0000000020000658        0x0 ./libs/libpluto_0.2.a(startup_stm32f30x_md_gcc.o)
+                0x0000000020000658                . = ALIGN (0x4)
+
+.bss            0x0000000020000658     0x1938 load address 0x000000000800fab8
+                0x0000000020000658                _sbss = .
+                0x0000000020000658                __bss_start__ = _sbss
+ *(.bss)
+ .bss           0x0000000020000658      0x26d /tmp/ccDZPdcM.ltrans0.ltrans.o
+                0x0000000020000688                mag
+                0x0000000020000690                magAlign
+                0x0000000020000698                gyroAlign
+                0x00000000200006ec                acc
+                0x00000000200006f8                accAlign
+                0x0000000020000708                previousTime
+                0x0000000020000740                _ZL8mspPorts.lto_priv.262
+                0x00000000200007da                rxRefreshRate.lto_priv.242
+                0x00000000200007f8                _ZL12currentMixer.lto_priv.275
+                0x00000000200008b8                motorControlEnable
+ *fill*         0x00000000200008c5        0x3 
+ .bss           0x00000000200008c8      0x19f /tmp/ccDZPdcM.ltrans1.ltrans.o
+ *fill*         0x0000000020000a67        0x1 
+ .bss           0x0000000020000a68       0x90 /tmp/ccDZPdcM.ltrans2.ltrans.o
+                0x0000000020000a68                _ZL16activeBoxIdCount.lto_priv.261
+                0x0000000020000a69                _ZL12activeBoxIds.lto_priv.260
+                0x0000000020000a86                accSmooth
+                0x0000000020000a8c                gyroADC
+                0x0000000020000a92                motor
+                0x0000000020000aaa                inclination_generalised
+                0x0000000020000ab0                _ZL6EstAlt.lto_priv.189
+                0x0000000020000ab4                vario
+                0x0000000020000ab8                mAhDrawn
+                0x0000000020000abc                rssi
+                0x0000000020000ac0                amperage
+                0x0000000020000ac4                _ZL15serialPortCount.lto_priv.283
+                0x0000000020000ac8                _ZL19serialPortUsageList.lto_priv.170
+ .bss           0x0000000020000af8      0x160 /tmp/ccDZPdcM.ltrans3.ltrans.o
+                0x0000000020000af8                _ZL8captures.lto_priv.149
+                0x0000000020000b10                ppmDev
+                0x0000000020000b58                _ZL13ppmFrameCount.lto_priv.217
+                0x0000000020000b5c                _ZL6motors.lto_priv.174
+                0x0000000020000b8c                _ZL18inputFilteringMode.lto_priv.282
+                0x0000000020000c50                i2cTimeout.lto_priv.145
+                0x0000000020000c54                I2Cx.lto_priv.146
+ .bss           0x0000000020000c58      0x377 /tmp/ccDZPdcM.ltrans4.ltrans.o
+                0x0000000020000c58                batteryConfig
+                0x0000000020000c95                _ZL16xBusChannelCount.lto_priv.252
+                0x0000000020000c96                _ZL17xBusFrameReceived.lto_priv.219
+                0x0000000020000c98                spekChannelData.lto_priv.236
+                0x0000000020000cc8                sumhChannels.lto_priv.222
+                0x0000000020000ce8                sumdChannels.lto_priv.227
+                0x0000000020000d08                sbusChannelData.lto_priv.230
+                0x0000000020000d50                mspFrame.lto_priv.156
+                0x0000000020000d74                adcConfig
+                0x0000000020000d84                adcValues
+                0x0000000020000e18                vbat
+                0x0000000020000e20                _ZL17xBusFramePosition.lto_priv.250
+                0x0000000020000e21                _ZL16xBusDataIncoming.lto_priv.249
+                0x0000000020000e22                _ZL15xBusFrameLength.lto_priv.251
+                0x0000000020000e23                _ZL12xBusProvider.lto_priv.253
+                0x0000000020000e29                spekFrame.lto_priv.232
+                0x0000000020000e39                rcFrameComplete.lto_priv.231
+                0x0000000020000e41                sumhFrame.lto_priv.221
+                0x0000000020000e56                sumhFrameDone.lto_priv.220
+                0x0000000020000e5d                sumdFrameDone.lto_priv.223
+                0x0000000020000e5e                crc.lto_priv.224
+                0x0000000020000e60                sumdChannelCount.lto_priv.225
+                0x0000000020000e61                sumd.lto_priv.226
+                0x0000000020000e8d                sbusFrame.lto_priv.229
+                0x0000000020000ea6                sbusFrameDone.lto_priv.228
+                0x0000000020000eb0                _ZL13boardRotation.lto_priv.274
+                0x0000000020000ed4                _ZL12batteryState.lto_priv.241
+                0x0000000020000ed6                batteryWarningVoltage
+                0x0000000020000ed8                batteryCriticalVoltage
+                0x0000000020000eda                InflightcalibratingA
+                0x0000000020000ef4                accADC
+                0x0000000020000efa                AccInflightCalibrationActive
+                0x0000000020000efb                rxSignalReceivedNotDataDriven.lto_priv.215
+                0x0000000020000efd                rcSampleIndex.lto_priv.212
+                0x0000000020000efe                rcRaw
+                0x0000000020000f24                rcInvalidPulsPeriod
+                0x0000000020000fce                batteryCellCount
+ *fill*         0x0000000020000fcf        0x1 
+ .bss           0x0000000020000fd0       0x2c /tmp/ccDZPdcM.ltrans5.ltrans.o
+                0x0000000020000fd0                mpuConfiguration
+                0x0000000020000fe0                _ZL16mpuIntExtiConfig.lto_priv.270
+                0x0000000020000fe4                i2c1ErrorCount.lto_priv.164
+                0x0000000020000fe6                i2c2ErrorCount.lto_priv.165
+                0x0000000020000fe8                adc3Config
+                0x0000000020000fec                adc4Config
+ .bss           0x0000000020000ffc       0xf4 /tmp/ccDZPdcM.ltrans6.ltrans.o
+                0x0000000020001018                rcCommand
+                0x0000000020001020                PIDweight
+                0x0000000020001024                _ZL10PTermState.lto_priv.183
+                0x0000000020001030                _ZL10errorGyroI.lto_priv.181
+                0x0000000020001042                axisPID
+                0x0000000020001048                _ZL11errorAngleI.lto_priv.182
+                0x0000000020001050                dynP8
+                0x0000000020001068                _ZL10DTermState.lto_priv.184
+                0x0000000020001074                dynD8
+                0x0000000020001088                _ZL11errorGyroIf.lto_priv.185
+                0x0000000020001094                _ZL12errorAngleIf.lto_priv.186
+                0x00000000200010a0                gyroScaleRad
+                0x00000000200010b0                EstG
+                0x00000000200010bc                smallAngle
+                0x00000000200010be                inclination
+                0x00000000200010d0                accZoffsetCalCycle
+                0x00000000200010d8                accSum
+                0x00000000200010e4                accTimeSum
+                0x00000000200010e8                accSumCount
+                0x00000000200010ec                accSumCountXY
+ .bss           0x00000000200010f0      0x2d0 /tmp/ccDZPdcM.ltrans7.ltrans.o
+                0x00000000200010f0                _ZL8ms5611_c.lto_priv.264
+                0x0000000020001100                currentControlRateProfile
+                0x0000000020001104                lookupYawRC
+                0x0000000020001112                _ZL30currentControlRateProfileIndex.lto_priv.209
+                0x0000000020001114                rxConfig.lto_priv.153
+                0x0000000020001118                adjustmentStates
+                0x0000000020001148                _ZL10gyroConfig.lto_priv.203
+                0x000000002000114c                _ZL14failsafeConfig.lto_priv.187
+                0x0000000020001150                _ZL13failsafeState.lto_priv.151
+                0x0000000020001174                _ZL17accelerationTrims.lto_priv.147
+                0x0000000020001178                _ZL14flight3DConfig.lto_priv.193
+                0x000000002000117c                _ZL17escAndServoConfig.lto_priv.141
+                0x0000000020001180                _ZL11mixerConfig.lto_priv.191
+                0x0000000020001184                _ZL8rxConfig.lto_priv.192
+                0x0000000020001198                _ZL16imuRuntimeConfig.lto_priv.176
+                0x000000002000119c                _ZL11accDeadband.lto_priv.177
+                0x00000000200011a0                throttleAngleScale
+                0x00000000200011a4                _ZL10pidProfile.lto_priv.136
+                0x00000000200011a8                _ZL16rcControlsConfig.lto_priv.194
+                0x00000000200011ac                _ZL17escAndServoConfig.lto_priv.140
+                0x00000000200011c4                baroTemperature
+                0x00000000200011c8                baroPressure
+                0x00000000200011cc                baro
+                0x00000000200011e4                sysTickUptime.lto_priv.152
+                0x00000000200011e8                _ZL12_last_update.lto_priv.190
+                0x0000000020001200                timerConfig
+                0x0000000020001318                uartPort2.lto_priv.143
+                0x000000002000136c                uartPort1.lto_priv.142
+ .bss           0x00000000200013c0      0x5d8 /tmp/ccDZPdcM.ltrans8.ltrans.o
+                0x00000000200013d0                rxRuntimeConfigPtr.lto_priv.234
+                0x00000000200013d4                rxRuntimeConfig
+                0x00000000200013d8                masterConfig
+                0x0000000020001904                spek_chan_shift.lto_priv.233
+                0x0000000020001905                spek_chan_mask.lto_priv.235
+                0x0000000020001906                spekHiRes.lto_priv.148
+                0x0000000020001908                escAndServoConfig.lto_priv.172
+                0x000000002000190c                pidProfile.lto_priv.173
+                0x0000000020001910                _ZL19activeFeaturesLatch.lto_priv.154
+                0x0000000020001914                rcData
+                0x0000000020001938                _ZL10pidProfile.lto_priv.139
+                0x0000000020001948                _ZZ13updateCompassE4tCal.lto_priv.205
+                0x000000002000194c                _ZZ13updateCompassE12nextUpdateAt.lto_priv.204
+                0x0000000020001950                magADC
+                0x0000000020001956                _ZZ13updateCompassE14magZeroTempMin.lto_priv.206
+                0x000000002000195c                _ZZ13updateCompassE14magZeroTempMax.lto_priv.207
+                0x0000000020001968                _ZL7magInit.lto_priv.263
+                0x000000002000196c                rcModeActivationMask
+                0x0000000020001970                armingFlags
+                0x0000000020001974                netAccMagnitude
+                0x0000000020001978                flightIndicatorFlag
+                0x000000002000197a                rxSignalReceived.lto_priv.150
+                0x000000002000197c                calibratingG
+                0x0000000020001980                _ZL14enabledSensors.lto_priv.163
+                0x0000000020001984                heading
+                0x0000000020001986                AccInflightCalibrationMeasurementDone
+                0x0000000020001987                AccInflightCalibrationSavetoEEProm
+                0x0000000020001988                AccInflightCalibrationArmed
+                0x000000002000198a                calibratingA
+                0x000000002000198c                stateFlags
+                0x0000000020001990                currentProfile
+                0x0000000020001994                calibratingB
+                0x0000000020001996                isChukedArmed
+                0x0000000020001997                HeightAchieved
+ .bss           0x0000000020001998       0x20 /tmp/ccDZPdcM.ltrans9.ltrans.o
+ .bss           0x00000000200019b8       0x64 /tmp/ccDZPdcM.ltrans10.ltrans.o
+                0x00000000200019b8                extiHandlerConfigs.lto_priv.286
+                0x00000000200019c0                _ZL13mspSerialPort.lto_priv.196
+                0x00000000200019c6                lookupThrottleRC
+                0x00000000200019de                lookupPitchRollRC
+                0x00000000200019ec                _ZL10beeperIsOn.lto_priv.201
+                0x00000000200019f0                _ZL20beeperNextToggleTime.lto_priv.200
+                0x00000000200019f4                _ZL9beeperPos.lto_priv.202
+                0x00000000200019f8                _ZL18currentBeeperEntry.lto_priv.199
+                0x0000000020001a14                usTicks.lto_priv.287
+                0x0000000020001a18                cycleTime
+                0x0000000020001a1a                motorCount
+                0x0000000020001a1b                _ZL15warningLedState.lto_priv.198
+ .bss           0x0000000020001a1c      0x400 /tmp/ccDZPdcM.ltrans11.ltrans.o
+ .bss           0x0000000020001e1c       0x7c /tmp/ccDZPdcM.ltrans12.ltrans.o
+                0x0000000020001e74                gyro
+                0x0000000020001e84                _ZL8rxConfig.lto_priv.259
+                0x0000000020001e88                _velocity_z
+                0x0000000020001e8c                AltRstRequired
+                0x0000000020001e8e                _ZL19initialThrottleHold.lto_priv.195
+                0x0000000020001e90                errorVelocityI
+                0x0000000020001e94                altHoldThrottleAdjustment
+ .bss           0x0000000020001e98       0x31 /tmp/ccDZPdcM.ltrans13.ltrans.o
+                0x0000000020001e98                suspendRxSignalUntil.lto_priv.211
+                0x0000000020001e9c                skipRxSamples.lto_priv.210
+                0x0000000020001ea0                _ZL11currentPort.lto_priv.166
+                0x0000000020001ea4                magHold
+                0x0000000020001ea6                rxMspFrameDone.lto_priv.218
+                0x0000000020001ea8                motor_disarmed
+                0x0000000020001ec0                current_command
+                0x0000000020001ec4                _ZL12serialConfig.lto_priv.171
+                0x0000000020001ec8                _ZL17isRebootScheduled.lto_priv.197
+ *fill*         0x0000000020001ec9        0x3 
+ .bss           0x0000000020001ecc       0x15 /tmp/ccDZPdcM.ltrans14.ltrans.o
+                0x0000000020001ecc                adc2Config
+                0x0000000020001ed4                adc1Config
+                0x0000000020001edc                current_cmd_index
+                0x0000000020001ee0                is_cmd_completed
+ *fill*         0x0000000020001ee1        0x1 
+ .bss           0x0000000020001ee2        0x2 /tmp/ccDZPdcM.ltrans15.ltrans.o
+                0x0000000020001ee2                flightModeFlags
+ .bss           0x0000000020001ee4       0xa6 /tmp/ccDZPdcM.ltrans16.ltrans.o
+                0x0000000020001eec                baroGroundTemperature
+                0x0000000020001ef0                baroGroundPressure
+                0x0000000020001f50                accVelScale
+                0x0000000020001f5c                _k3_z
+                0x0000000020001f60                _k2_z
+                0x0000000020001f64                _k1_z
+                0x0000000020001f68                VelocityZ
+                0x0000000020001f6c                AltHold
+                0x0000000020001f70                setVelocity
+                0x0000000020001f78                isCalibrated
+                0x0000000020001f7c                _ZL8disarmAt.lto_priv.208
+                0x0000000020001f80                isLanding
+                0x0000000020001f84                flipState
+                0x0000000020001f88                isHeadSet
+                0x0000000020001f89                Control
+ *(SORT(.bss*))
+ *(COMMON)
+ *fill*         0x0000000020001f8a        0x2 
+ COMMON         0x0000000020001f8c        0x4 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-reent.o)
+                0x0000000020001f8c                errno
+                0x0000000020001f90                . = ALIGN (0x4)
+                0x0000000020001f90                _ebss = .
+                0x0000000020001f90                __bss_end__ = _ebss
+
+._user_heap_stack
+                0x0000000020001f90      0x400 load address 0x000000000800fab8
+                0x0000000020001f90                . = ALIGN (0x4)
+                0x0000000020001f90                PROVIDE (end, .)
+                [!provide]                        PROVIDE (_end, .)
+                0x0000000020001f90                . = (. + _Min_Heap_Size)
+                0x0000000020002390                . = (. + _Min_Stack_Size)
+ *fill*         0x0000000020001f90      0x400 
+                0x0000000020002390                . = ALIGN (0x4)
+
+.memory_b1_text
+ *(.mb1text)
+ *(.mb1text*)
+ *(.mb1rodata)
+ *(.mb1rodata*)
+
+/DISCARD/
+ libc.a(*)
+ libm.a(*)
+ libgcc.a(*)
+
+.ARM.attributes
+                0x0000000000000000       0x37
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x0000000000000000       0x37 /tmp/ccDZPdcM.ltrans0.ltrans.o
+ .ARM.attributes
+                0x0000000000000037       0x37 /tmp/ccDZPdcM.ltrans1.ltrans.o
+ .ARM.attributes
+                0x000000000000006e       0x37 /tmp/ccDZPdcM.ltrans2.ltrans.o
+ .ARM.attributes
+                0x00000000000000a5       0x37 /tmp/ccDZPdcM.ltrans3.ltrans.o
+ .ARM.attributes
+                0x00000000000000dc       0x37 /tmp/ccDZPdcM.ltrans4.ltrans.o
+ .ARM.attributes
+                0x0000000000000113       0x37 /tmp/ccDZPdcM.ltrans5.ltrans.o
+ .ARM.attributes
+                0x000000000000014a       0x37 /tmp/ccDZPdcM.ltrans6.ltrans.o
+ .ARM.attributes
+                0x0000000000000181       0x37 /tmp/ccDZPdcM.ltrans7.ltrans.o
+ .ARM.attributes
+                0x00000000000001b8       0x37 /tmp/ccDZPdcM.ltrans8.ltrans.o
+ .ARM.attributes
+                0x00000000000001ef       0x37 /tmp/ccDZPdcM.ltrans9.ltrans.o
+ .ARM.attributes
+                0x0000000000000226       0x37 /tmp/ccDZPdcM.ltrans10.ltrans.o
+ .ARM.attributes
+                0x000000000000025d       0x37 /tmp/ccDZPdcM.ltrans11.ltrans.o
+ .ARM.attributes
+                0x0000000000000294       0x37 /tmp/ccDZPdcM.ltrans12.ltrans.o
+ .ARM.attributes
+                0x00000000000002cb       0x37 /tmp/ccDZPdcM.ltrans13.ltrans.o
+ .ARM.attributes
+                0x0000000000000302       0x37 /tmp/ccDZPdcM.ltrans14.ltrans.o
+ .ARM.attributes
+                0x0000000000000339       0x37 /tmp/ccDZPdcM.ltrans15.ltrans.o
+ .ARM.attributes
+                0x0000000000000370       0x37 /tmp/ccDZPdcM.ltrans16.ltrans.o
+ .ARM.attributes
+                0x00000000000003a7       0x37 /tmp/ccDZPdcM.ltrans17.ltrans.o
+ .ARM.attributes
+                0x00000000000003de       0x21 ./libs/libpluto_0.2.a(startup_stm32f30x_md_gcc.o)
+ .ARM.attributes
+                0x00000000000003ff       0x34 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-sf_lrint.o)
+ .ARM.attributes
+                0x0000000000000433       0x34 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-wf_acos.o)
+ .ARM.attributes
+                0x0000000000000467       0x34 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-wf_atan2.o)
+ .ARM.attributes
+                0x000000000000049b       0x34 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-wf_log.o)
+ .ARM.attributes
+                0x00000000000004cf       0x34 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-wf_sqrt.o)
+ .ARM.attributes
+                0x0000000000000503       0x34 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-ef_acos.o)
+ .ARM.attributes
+                0x0000000000000537       0x34 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-ef_atan2.o)
+ .ARM.attributes
+                0x000000000000056b       0x34 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-ef_log.o)
+ .ARM.attributes
+                0x000000000000059f       0x34 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-ef_sqrt.o)
+ .ARM.attributes
+                0x00000000000005d3       0x34 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-s_lib_ver.o)
+ .ARM.attributes
+                0x0000000000000607       0x34 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-s_matherr.o)
+ .ARM.attributes
+                0x000000000000063b       0x34 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-s_nan.o)
+ .ARM.attributes
+                0x000000000000066f       0x34 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-sf_atan.o)
+ .ARM.attributes
+                0x00000000000006a3       0x34 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-sf_fabs.o)
+ .ARM.attributes
+                0x00000000000006d7       0x34 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-errno.o)
+ .ARM.attributes
+                0x000000000000070b       0x34 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-impure.o)
+ .ARM.attributes
+                0x000000000000073f       0x20 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-memcpy.o)
+ .ARM.attributes
+                0x000000000000075f       0x34 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-memset.o)
+ .ARM.attributes
+                0x0000000000000793       0x34 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-strchr.o)
+ .ARM.attributes
+                0x00000000000007c7       0x20 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-strlen.o)
+ .ARM.attributes
+                0x00000000000007e7       0x22 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(_ashrdi3.o)
+ .ARM.attributes
+                0x0000000000000809       0x22 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(_arm_addsubdf3.o)
+ .ARM.attributes
+                0x000000000000082b       0x22 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(_arm_muldivdf3.o)
+ .ARM.attributes
+                0x000000000000084d       0x22 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(_arm_truncdfsf2.o)
+ .ARM.attributes
+                0x000000000000086f       0x22 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(_aeabi_ldivmod.o)
+ .ARM.attributes
+                0x0000000000000891       0x34 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(_fixsfdi.o)
+ .ARM.attributes
+                0x00000000000008c5       0x34 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(_fixunssfdi.o)
+ .ARM.attributes
+                0x00000000000008f9       0x34 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(_udivmoddi4.o)
+ .ARM.attributes
+                0x000000000000092d       0x22 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x000000000000094f       0x22 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(_arm_fixunsdfsi.o)
+OUTPUT(obj/Experience_PLUTOX.elf elf32-littlearm)
+
+.debug_info     0x0000000000000000    0x24e71
+ .debug_info    0x0000000000000000     0x43eb /tmp/ccDZPdcM.ltrans0.ltrans.o
+ .debug_info    0x00000000000043eb     0x583c /tmp/ccDZPdcM.ltrans1.ltrans.o
+ .debug_info    0x0000000000009c27     0x1415 /tmp/ccDZPdcM.ltrans2.ltrans.o
+ .debug_info    0x000000000000b03c     0x2daa /tmp/ccDZPdcM.ltrans3.ltrans.o
+ .debug_info    0x000000000000dde6     0x1aad /tmp/ccDZPdcM.ltrans4.ltrans.o
+ .debug_info    0x000000000000f893     0x28b0 /tmp/ccDZPdcM.ltrans5.ltrans.o
+ .debug_info    0x0000000000012143     0x14d6 /tmp/ccDZPdcM.ltrans6.ltrans.o
+ .debug_info    0x0000000000013619     0x374e /tmp/ccDZPdcM.ltrans7.ltrans.o
+ .debug_info    0x0000000000016d67     0x3963 /tmp/ccDZPdcM.ltrans8.ltrans.o
+ .debug_info    0x000000000001a6ca     0x2373 /tmp/ccDZPdcM.ltrans9.ltrans.o
+ .debug_info    0x000000000001ca3d     0x1bdb /tmp/ccDZPdcM.ltrans10.ltrans.o
+ .debug_info    0x000000000001e618     0x18fb /tmp/ccDZPdcM.ltrans11.ltrans.o
+ .debug_info    0x000000000001ff13      0xf39 /tmp/ccDZPdcM.ltrans12.ltrans.o
+ .debug_info    0x0000000000020e4c     0x10ab /tmp/ccDZPdcM.ltrans13.ltrans.o
+ .debug_info    0x0000000000021ef7     0x11c4 /tmp/ccDZPdcM.ltrans14.ltrans.o
+ .debug_info    0x00000000000230bb     0x1161 /tmp/ccDZPdcM.ltrans15.ltrans.o
+ .debug_info    0x000000000002421c      0xbbe /tmp/ccDZPdcM.ltrans16.ltrans.o
+ .debug_info    0x0000000000024dda       0x97 /tmp/ccDZPdcM.ltrans17.ltrans.o
+
+.debug_abbrev   0x0000000000000000     0x499c
+ .debug_abbrev  0x0000000000000000      0x515 /tmp/ccDZPdcM.ltrans0.ltrans.o
+ .debug_abbrev  0x0000000000000515      0x482 /tmp/ccDZPdcM.ltrans1.ltrans.o
+ .debug_abbrev  0x0000000000000997      0x388 /tmp/ccDZPdcM.ltrans2.ltrans.o
+ .debug_abbrev  0x0000000000000d1f      0x4b6 /tmp/ccDZPdcM.ltrans3.ltrans.o
+ .debug_abbrev  0x00000000000011d5      0x52b /tmp/ccDZPdcM.ltrans4.ltrans.o
+ .debug_abbrev  0x0000000000001700      0x4ba /tmp/ccDZPdcM.ltrans5.ltrans.o
+ .debug_abbrev  0x0000000000001bba      0x358 /tmp/ccDZPdcM.ltrans6.ltrans.o
+ .debug_abbrev  0x0000000000001f12      0x61b /tmp/ccDZPdcM.ltrans7.ltrans.o
+ .debug_abbrev  0x000000000000252d      0x54a /tmp/ccDZPdcM.ltrans8.ltrans.o
+ .debug_abbrev  0x0000000000002a77      0x366 /tmp/ccDZPdcM.ltrans9.ltrans.o
+ .debug_abbrev  0x0000000000002ddd      0x518 /tmp/ccDZPdcM.ltrans10.ltrans.o
+ .debug_abbrev  0x00000000000032f5      0x42b /tmp/ccDZPdcM.ltrans11.ltrans.o
+ .debug_abbrev  0x0000000000003720      0x3ac /tmp/ccDZPdcM.ltrans12.ltrans.o
+ .debug_abbrev  0x0000000000003acc      0x3aa /tmp/ccDZPdcM.ltrans13.ltrans.o
+ .debug_abbrev  0x0000000000003e76      0x287 /tmp/ccDZPdcM.ltrans14.ltrans.o
+ .debug_abbrev  0x00000000000040fd      0x47b /tmp/ccDZPdcM.ltrans15.ltrans.o
+ .debug_abbrev  0x0000000000004578      0x3b1 /tmp/ccDZPdcM.ltrans16.ltrans.o
+ .debug_abbrev  0x0000000000004929       0x73 /tmp/ccDZPdcM.ltrans17.ltrans.o
+
+.debug_loc      0x0000000000000000    0x107d7
+ .debug_loc     0x0000000000000000     0x1a76 /tmp/ccDZPdcM.ltrans0.ltrans.o
+ .debug_loc     0x0000000000001a76     0x1955 /tmp/ccDZPdcM.ltrans1.ltrans.o
+ .debug_loc     0x00000000000033cb      0xcb1 /tmp/ccDZPdcM.ltrans2.ltrans.o
+ .debug_loc     0x000000000000407c     0x1af6 /tmp/ccDZPdcM.ltrans3.ltrans.o
+ .debug_loc     0x0000000000005b72      0xcea /tmp/ccDZPdcM.ltrans4.ltrans.o
+ .debug_loc     0x000000000000685c     0x102e /tmp/ccDZPdcM.ltrans5.ltrans.o
+ .debug_loc     0x000000000000788a     0x133c /tmp/ccDZPdcM.ltrans6.ltrans.o
+ .debug_loc     0x0000000000008bc6      0xb18 /tmp/ccDZPdcM.ltrans7.ltrans.o
+ .debug_loc     0x00000000000096de      0xe57 /tmp/ccDZPdcM.ltrans8.ltrans.o
+ .debug_loc     0x000000000000a535     0x2321 /tmp/ccDZPdcM.ltrans9.ltrans.o
+ .debug_loc     0x000000000000c856      0xebf /tmp/ccDZPdcM.ltrans10.ltrans.o
+ .debug_loc     0x000000000000d715      0xdd1 /tmp/ccDZPdcM.ltrans11.ltrans.o
+ .debug_loc     0x000000000000e4e6      0xc5f /tmp/ccDZPdcM.ltrans12.ltrans.o
+ .debug_loc     0x000000000000f145      0x469 /tmp/ccDZPdcM.ltrans13.ltrans.o
+ .debug_loc     0x000000000000f5ae      0x5de /tmp/ccDZPdcM.ltrans14.ltrans.o
+ .debug_loc     0x000000000000fb8c      0x741 /tmp/ccDZPdcM.ltrans15.ltrans.o
+ .debug_loc     0x00000000000102cd      0x50a /tmp/ccDZPdcM.ltrans16.ltrans.o
+
+.debug_aranges  0x0000000000000000      0x240
+ .debug_aranges
+                0x0000000000000000       0x20 /tmp/ccDZPdcM.ltrans0.ltrans.o
+ .debug_aranges
+                0x0000000000000020       0x20 /tmp/ccDZPdcM.ltrans1.ltrans.o
+ .debug_aranges
+                0x0000000000000040       0x20 /tmp/ccDZPdcM.ltrans2.ltrans.o
+ .debug_aranges
+                0x0000000000000060       0x20 /tmp/ccDZPdcM.ltrans3.ltrans.o
+ .debug_aranges
+                0x0000000000000080       0x20 /tmp/ccDZPdcM.ltrans4.ltrans.o
+ .debug_aranges
+                0x00000000000000a0       0x20 /tmp/ccDZPdcM.ltrans5.ltrans.o
+ .debug_aranges
+                0x00000000000000c0       0x20 /tmp/ccDZPdcM.ltrans6.ltrans.o
+ .debug_aranges
+                0x00000000000000e0       0x20 /tmp/ccDZPdcM.ltrans7.ltrans.o
+ .debug_aranges
+                0x0000000000000100       0x20 /tmp/ccDZPdcM.ltrans8.ltrans.o
+ .debug_aranges
+                0x0000000000000120       0x20 /tmp/ccDZPdcM.ltrans9.ltrans.o
+ .debug_aranges
+                0x0000000000000140       0x20 /tmp/ccDZPdcM.ltrans10.ltrans.o
+ .debug_aranges
+                0x0000000000000160       0x20 /tmp/ccDZPdcM.ltrans11.ltrans.o
+ .debug_aranges
+                0x0000000000000180       0x20 /tmp/ccDZPdcM.ltrans12.ltrans.o
+ .debug_aranges
+                0x00000000000001a0       0x20 /tmp/ccDZPdcM.ltrans13.ltrans.o
+ .debug_aranges
+                0x00000000000001c0       0x20 /tmp/ccDZPdcM.ltrans14.ltrans.o
+ .debug_aranges
+                0x00000000000001e0       0x20 /tmp/ccDZPdcM.ltrans15.ltrans.o
+ .debug_aranges
+                0x0000000000000200       0x20 /tmp/ccDZPdcM.ltrans16.ltrans.o
+ .debug_aranges
+                0x0000000000000220       0x20 /tmp/ccDZPdcM.ltrans17.ltrans.o
+
+.debug_ranges   0x0000000000000000     0x2d48
+ .debug_ranges  0x0000000000000000      0xb38 /tmp/ccDZPdcM.ltrans0.ltrans.o
+ .debug_ranges  0x0000000000000b38      0xa20 /tmp/ccDZPdcM.ltrans1.ltrans.o
+ .debug_ranges  0x0000000000001558      0x140 /tmp/ccDZPdcM.ltrans2.ltrans.o
+ .debug_ranges  0x0000000000001698      0x1e0 /tmp/ccDZPdcM.ltrans3.ltrans.o
+ .debug_ranges  0x0000000000001878      0x120 /tmp/ccDZPdcM.ltrans4.ltrans.o
+ .debug_ranges  0x0000000000001998      0x208 /tmp/ccDZPdcM.ltrans5.ltrans.o
+ .debug_ranges  0x0000000000001ba0      0x180 /tmp/ccDZPdcM.ltrans6.ltrans.o
+ .debug_ranges  0x0000000000001d20      0x3c8 /tmp/ccDZPdcM.ltrans7.ltrans.o
+ .debug_ranges  0x00000000000020e8       0xc8 /tmp/ccDZPdcM.ltrans8.ltrans.o
+ .debug_ranges  0x00000000000021b0      0x310 /tmp/ccDZPdcM.ltrans9.ltrans.o
+ .debug_ranges  0x00000000000024c0      0x190 /tmp/ccDZPdcM.ltrans10.ltrans.o
+ .debug_ranges  0x0000000000002650      0x140 /tmp/ccDZPdcM.ltrans11.ltrans.o
+ .debug_ranges  0x0000000000002790       0xe0 /tmp/ccDZPdcM.ltrans12.ltrans.o
+ .debug_ranges  0x0000000000002870      0x158 /tmp/ccDZPdcM.ltrans13.ltrans.o
+ .debug_ranges  0x00000000000029c8      0x128 /tmp/ccDZPdcM.ltrans14.ltrans.o
+ .debug_ranges  0x0000000000002af0      0x120 /tmp/ccDZPdcM.ltrans15.ltrans.o
+ .debug_ranges  0x0000000000002c10      0x138 /tmp/ccDZPdcM.ltrans16.ltrans.o
+
+.debug_line     0x0000000000000000     0x8c9b
+ .debug_line    0x0000000000000000     0x1124 /tmp/ccDZPdcM.ltrans0.ltrans.o
+ .debug_line    0x0000000000001124     0x11c5 /tmp/ccDZPdcM.ltrans1.ltrans.o
+ .debug_line    0x00000000000022e9      0x6a2 /tmp/ccDZPdcM.ltrans2.ltrans.o
+ .debug_line    0x000000000000298b      0x757 /tmp/ccDZPdcM.ltrans3.ltrans.o
+ .debug_line    0x00000000000030e2      0x783 /tmp/ccDZPdcM.ltrans4.ltrans.o
+ .debug_line    0x0000000000003865      0x880 /tmp/ccDZPdcM.ltrans5.ltrans.o
+ .debug_line    0x00000000000040e5      0x6b7 /tmp/ccDZPdcM.ltrans6.ltrans.o
+ .debug_line    0x000000000000479c      0xb4d /tmp/ccDZPdcM.ltrans7.ltrans.o
+ .debug_line    0x00000000000052e9      0xa05 /tmp/ccDZPdcM.ltrans8.ltrans.o
+ .debug_line    0x0000000000005cee      0x68b /tmp/ccDZPdcM.ltrans9.ltrans.o
+ .debug_line    0x0000000000006379      0x723 /tmp/ccDZPdcM.ltrans10.ltrans.o
+ .debug_line    0x0000000000006a9c      0x4f2 /tmp/ccDZPdcM.ltrans11.ltrans.o
+ .debug_line    0x0000000000006f8e      0x602 /tmp/ccDZPdcM.ltrans12.ltrans.o
+ .debug_line    0x0000000000007590      0x5ab /tmp/ccDZPdcM.ltrans13.ltrans.o
+ .debug_line    0x0000000000007b3b      0x4f0 /tmp/ccDZPdcM.ltrans14.ltrans.o
+ .debug_line    0x000000000000802b      0x598 /tmp/ccDZPdcM.ltrans15.ltrans.o
+ .debug_line    0x00000000000085c3      0x5c3 /tmp/ccDZPdcM.ltrans16.ltrans.o
+ .debug_line    0x0000000000008b86      0x115 /tmp/ccDZPdcM.ltrans17.ltrans.o
+
+.debug_str      0x0000000000000000     0xb36b
+ .debug_str     0x0000000000000000     0x20bc /tmp/ccDZPdcM.ltrans0.ltrans.o
+                                       0x2218 (size before relaxing)
+ .debug_str     0x00000000000020bc     0x2382 /tmp/ccDZPdcM.ltrans1.ltrans.o
+                                       0x2f1b (size before relaxing)
+ .debug_str     0x000000000000443e      0x497 /tmp/ccDZPdcM.ltrans2.ltrans.o
+                                        0xc9d (size before relaxing)
+ .debug_str     0x00000000000048d5      0x9c7 /tmp/ccDZPdcM.ltrans3.ltrans.o
+                                       0x159c (size before relaxing)
+ .debug_str     0x000000000000529c      0xe98 /tmp/ccDZPdcM.ltrans4.ltrans.o
+                                       0x158a (size before relaxing)
+ .debug_str     0x0000000000006134      0x9fd /tmp/ccDZPdcM.ltrans5.ltrans.o
+                                       0x19d5 (size before relaxing)
+ .debug_str     0x0000000000006b31      0x666 /tmp/ccDZPdcM.ltrans6.ltrans.o
+                                        0xc8c (size before relaxing)
+ .debug_str     0x0000000000007197     0x1580 /tmp/ccDZPdcM.ltrans7.ltrans.o
+                                       0x2bf4 (size before relaxing)
+ .debug_str     0x0000000000008717      0xb69 /tmp/ccDZPdcM.ltrans8.ltrans.o
+                                       0x2e08 (size before relaxing)
+ .debug_str     0x0000000000009280      0x9dd /tmp/ccDZPdcM.ltrans9.ltrans.o
+                                       0x1430 (size before relaxing)
+ .debug_str     0x0000000000009c5d      0x6dc /tmp/ccDZPdcM.ltrans10.ltrans.o
+                                       0x16de (size before relaxing)
+ .debug_str     0x000000000000a339      0x25c /tmp/ccDZPdcM.ltrans11.ltrans.o
+                                        0xba1 (size before relaxing)
+ .debug_str     0x000000000000a595      0x306 /tmp/ccDZPdcM.ltrans12.ltrans.o
+                                        0xb88 (size before relaxing)
+ .debug_str     0x000000000000a89b      0x2b9 /tmp/ccDZPdcM.ltrans13.ltrans.o
+                                        0xdb4 (size before relaxing)
+ .debug_str     0x000000000000ab54       0xeb /tmp/ccDZPdcM.ltrans14.ltrans.o
+                                        0x9b7 (size before relaxing)
+ .debug_str     0x000000000000ac3f      0x324 /tmp/ccDZPdcM.ltrans15.ltrans.o
+                                        0xbea (size before relaxing)
+ .debug_str     0x000000000000af63      0x3fd /tmp/ccDZPdcM.ltrans16.ltrans.o
+                                        0x89c (size before relaxing)
+ .debug_str     0x000000000000b360        0xb /tmp/ccDZPdcM.ltrans17.ltrans.o
+                                        0x203 (size before relaxing)
+
+.comment        0x0000000000000000       0x7f
+ .comment       0x0000000000000000       0x7f /tmp/ccDZPdcM.ltrans0.ltrans.o
+                                         0x80 (size before relaxing)
+ .comment       0x000000000000007f       0x80 /tmp/ccDZPdcM.ltrans1.ltrans.o
+ .comment       0x000000000000007f       0x80 /tmp/ccDZPdcM.ltrans2.ltrans.o
+ .comment       0x000000000000007f       0x80 /tmp/ccDZPdcM.ltrans3.ltrans.o
+ .comment       0x000000000000007f       0x80 /tmp/ccDZPdcM.ltrans4.ltrans.o
+ .comment       0x000000000000007f       0x80 /tmp/ccDZPdcM.ltrans5.ltrans.o
+ .comment       0x000000000000007f       0x80 /tmp/ccDZPdcM.ltrans6.ltrans.o
+ .comment       0x000000000000007f       0x80 /tmp/ccDZPdcM.ltrans7.ltrans.o
+ .comment       0x000000000000007f       0x80 /tmp/ccDZPdcM.ltrans8.ltrans.o
+ .comment       0x000000000000007f       0x80 /tmp/ccDZPdcM.ltrans9.ltrans.o
+ .comment       0x000000000000007f       0x80 /tmp/ccDZPdcM.ltrans10.ltrans.o
+ .comment       0x000000000000007f       0x80 /tmp/ccDZPdcM.ltrans11.ltrans.o
+ .comment       0x000000000000007f       0x80 /tmp/ccDZPdcM.ltrans12.ltrans.o
+ .comment       0x000000000000007f       0x80 /tmp/ccDZPdcM.ltrans13.ltrans.o
+ .comment       0x000000000000007f       0x80 /tmp/ccDZPdcM.ltrans14.ltrans.o
+ .comment       0x000000000000007f       0x80 /tmp/ccDZPdcM.ltrans15.ltrans.o
+ .comment       0x000000000000007f       0x80 /tmp/ccDZPdcM.ltrans16.ltrans.o
+ .comment       0x000000000000007f       0x80 /tmp/ccDZPdcM.ltrans17.ltrans.o
+
+.debug_frame    0x0000000000000000     0x1a88
+ .debug_frame   0x0000000000000000       0x44 /tmp/ccDZPdcM.ltrans0.ltrans.o
+ .debug_frame   0x0000000000000044       0x54 /tmp/ccDZPdcM.ltrans1.ltrans.o
+ .debug_frame   0x0000000000000098       0xa4 /tmp/ccDZPdcM.ltrans2.ltrans.o
+ .debug_frame   0x000000000000013c      0x1a8 /tmp/ccDZPdcM.ltrans3.ltrans.o
+ .debug_frame   0x00000000000002e4      0x264 /tmp/ccDZPdcM.ltrans4.ltrans.o
+ .debug_frame   0x0000000000000548      0x198 /tmp/ccDZPdcM.ltrans5.ltrans.o
+ .debug_frame   0x00000000000006e0      0x174 /tmp/ccDZPdcM.ltrans6.ltrans.o
+ .debug_frame   0x0000000000000854      0x1ec /tmp/ccDZPdcM.ltrans7.ltrans.o
+ .debug_frame   0x0000000000000a40      0x1b8 /tmp/ccDZPdcM.ltrans8.ltrans.o
+ .debug_frame   0x0000000000000bf8       0x50 /tmp/ccDZPdcM.ltrans9.ltrans.o
+ .debug_frame   0x0000000000000c48      0x298 /tmp/ccDZPdcM.ltrans10.ltrans.o
+ .debug_frame   0x0000000000000ee0       0xf4 /tmp/ccDZPdcM.ltrans11.ltrans.o
+ .debug_frame   0x0000000000000fd4      0x174 /tmp/ccDZPdcM.ltrans12.ltrans.o
+ .debug_frame   0x0000000000001148       0xa8 /tmp/ccDZPdcM.ltrans13.ltrans.o
+ .debug_frame   0x00000000000011f0       0x78 /tmp/ccDZPdcM.ltrans14.ltrans.o
+ .debug_frame   0x0000000000001268      0x1a0 /tmp/ccDZPdcM.ltrans15.ltrans.o
+ .debug_frame   0x0000000000001408       0xbc /tmp/ccDZPdcM.ltrans16.ltrans.o
+ .debug_frame   0x00000000000014c4       0x20 /tmp/ccDZPdcM.ltrans17.ltrans.o
+ .debug_frame   0x00000000000014e4       0x48 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-sf_lrint.o)
+ .debug_frame   0x000000000000152c       0x44 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-wf_acos.o)
+ .debug_frame   0x0000000000001570       0x20 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-wf_atan2.o)
+ .debug_frame   0x0000000000001590       0x50 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-wf_log.o)
+ .debug_frame   0x00000000000015e0       0x50 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-wf_sqrt.o)
+ .debug_frame   0x0000000000001630       0x64 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-ef_acos.o)
+ .debug_frame   0x0000000000001694       0x48 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-ef_atan2.o)
+ .debug_frame   0x00000000000016dc       0x4c /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-ef_log.o)
+ .debug_frame   0x0000000000001728       0x20 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-ef_sqrt.o)
+ .debug_frame   0x0000000000001748       0x20 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-s_matherr.o)
+ .debug_frame   0x0000000000001768       0x20 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-s_nan.o)
+ .debug_frame   0x0000000000001788       0x2c /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-sf_atan.o)
+ .debug_frame   0x00000000000017b4       0x20 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a(lib_a-sf_fabs.o)
+ .debug_frame   0x00000000000017d4       0x20 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-errno.o)
+ .debug_frame   0x00000000000017f4       0x34 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-memset.o)
+ .debug_frame   0x0000000000001828       0x50 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-strchr.o)
+ .debug_frame   0x0000000000001878       0xac /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(_arm_addsubdf3.o)
+ .debug_frame   0x0000000000001924       0x50 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(_arm_muldivdf3.o)
+ .debug_frame   0x0000000000001974       0x24 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(_arm_truncdfsf2.o)
+ .debug_frame   0x0000000000001998       0x44 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(_aeabi_ldivmod.o)
+ .debug_frame   0x00000000000019dc       0x28 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(_fixsfdi.o)
+ .debug_frame   0x0000000000001a04       0x2c /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(_fixunssfdi.o)
+ .debug_frame   0x0000000000001a30       0x34 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(_udivmoddi4.o)
+ .debug_frame   0x0000000000001a64       0x24 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a(_arm_fixunsdfsi.o)
+
+.stabstr        0x0000000000000000       0x76
+ .stabstr       0x0000000000000000       0x76 /home/rajula/Academics/Semester10/MR_PE/Cygnus/tools/toolchain/gcc-arm/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libnosys.a(getpid.o)
